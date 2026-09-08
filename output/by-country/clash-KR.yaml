@@ -5,45 +5,101 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaobo
-  type: vmess
-  server: 132.145.80.230
-  port: 80
-  uuid: 5155860e-d07d-46c3-9128-3afbd84626c7
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: 579ac5bd-a43d-49d4-b83e-a9e3ddd1f706
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13.m3u8
-    headers:
-      Host: ''
+  reality-opts:
+    public-key: k9narlSK7fUqy94_p0rrqKl52W35QLNsp3W8xaGq_Go
+  servername: www.apple.com
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 02 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 03 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 7001
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 04 - xiaobo
   type: ss
   server: 141.164.45.187
   port: 8119
   cipher: aes-256-gcm
   password: cdBIDV42DCwnfIN
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 03 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 05 - xiaobo
+  type: vless
+  server: 130.94.29.111
+  port: 2087
+  uuid: 84da6391-1539-4583-a3d9-d6efd796b4d6
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /e17586a75123
+    headers:
+      Host: 130.94.29.111
+- name: 🇰🇷 韩国 (South Korea) 06 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 7002
+  cipher: aes-256-gcm
+  password: RexnBgU7EV5ADxG
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 07 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 9090
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 08 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 8888
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaobo
   type: ss
   server: 141.164.45.187
   port: 5498
   cipher: aes-256-gcm
   password: lGqs95QkFHo2NV
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 04 - xiaobo
-  type: vmess
-  server: 140.238.2.250
-  port: 443
-  uuid: 41a7089a-040b-4538-8b8d-010902405bde
-  alterId: 0
-  cipher: auto
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 2376
+  cipher: aes-256-gcm
+  password: faBAoD54k87UJG7
   udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇰🇷 韩国 (South Korea) 05 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 8091
+  cipher: aes-256-gcm
+  password: PCnnH6SQSnfoS27
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 13 - xiaobo
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -55,28 +111,7 @@ proxies:
     public-key: k9narlSK7fUqy94_p0rrqKl52W35QLNsp3W8xaGq_Go
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 06 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 8008
-  cipher: aes-256-gcm
-  password: XKFKl2rULjIp74
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 07 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 8091
-  cipher: aes-256-gcm
-  password: PCnnH6SQSnfoS27
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 08 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 6679
-  cipher: aes-256-gcm
-  password: TEzjfAYq2IjtuoS
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 09 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 14 - xiaobo
   type: vless
   server: 130.94.29.111
   port: 2087
@@ -103,6 +138,11 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaobo
   - 🇰🇷 韩国 (South Korea) 08 - xiaobo
   - 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 13 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 14 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -117,5 +157,10 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaobo
   - 🇰🇷 韩国 (South Korea) 08 - xiaobo
   - 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 13 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 14 - xiaobo
 rules:
 - MATCH,PROXIES
