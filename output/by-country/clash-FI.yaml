@@ -4,7 +4,21 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇫🇮 FI 01 - xiaohe
+- name: 🇫🇮 FI 01 - xiaobo
+  type: vless
+  server: a2.arshia-nova.ir
+  port: 443
+  uuid: f54c98ce-ac44-4984-db61-ccca1fdbbf72
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 02 - xiaobo
   type: vless
   server: 2.26.122.101
   port: 8443
@@ -16,25 +30,11 @@ proxies:
     public-key: NI5Rkfn6zO_gF-UC1nuvJwu4SDakCXh3ygJOKU1EITU
   servername: cdn.shopify.com
   client-fingerprint: firefox
-- name: 🇫🇮 FI 02 - xiaohe
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 03 - xiaohe
+- name: 🇫🇮 FI 03 - xiaobo
   type: vless
   server: k2.cloud--vpn.site
   port: 443
-  uuid: daee66b7-3f5e-46d7-83c1-4d93a5fb33c3
+  uuid: f54c98ce-ac44-4984-db61-ccca1fdbbf72
   udp: true
   tls: true
   skip-cert-verify: true
@@ -44,7 +44,7 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 04 - xiaohe
+- name: 🇫🇮 FI 04 - xiaobo
   type: vless
   server: 185.79.138.71
   port: 448
@@ -61,18 +61,18 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇫🇮 FI 01 - xiaohe
-  - 🇫🇮 FI 02 - xiaohe
-  - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
+  - 🇫🇮 FI 01 - xiaobo
+  - 🇫🇮 FI 02 - xiaobo
+  - 🇫🇮 FI 03 - xiaobo
+  - 🇫🇮 FI 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇫🇮 FI 01 - xiaohe
-  - 🇫🇮 FI 02 - xiaohe
-  - 🇫🇮 FI 03 - xiaohe
-  - 🇫🇮 FI 04 - xiaohe
+  - 🇫🇮 FI 01 - xiaobo
+  - 🇫🇮 FI 02 - xiaobo
+  - 🇫🇮 FI 03 - xiaobo
+  - 🇫🇮 FI 04 - xiaobo
 rules:
 - MATCH,PROXIES
