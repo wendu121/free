@@ -6,92 +6,19 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
   type: vless
-  server: 619c9ae2-tla000-tls5or-6gn6.hk3.hyhuawei.com
+  server: 7306ab60-tla000-tlvr2y-1imi4.hk3.hyhuawei.com
   port: 443
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
   type: vless
-  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
-  port: 443
-  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
-  type: vless
-  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
-  port: 443
-  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
-  type: vless
-  server: 19a3f02e-tla000-tl6lcj-tng5.hk3.hyhuawei.com
-  port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: edge
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  type: vless
-  server: 172.67.152.71
-  port: 8880
-  uuid: ed189537-41de-4abe-9f8b-bb75d457722d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: lucky-cake-4f58.318-5ee.workers.dev
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
-  type: vless
-  server: 58.153.148.126
+  server: fae6ca7a-tla000-tpkh0c-1r7od.hk3.hyhuawei.com
   port: 443
   uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
   udp: true
@@ -100,32 +27,20 @@ proxies:
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaobo
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
   type: vless
-  server: 58.153.148.126
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
   port: 443
-  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaobo
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
   type: vless
   server: 6342844e-tla000-tlpfci-1jdha.hk3.hyhuawei.com
   port: 443
@@ -137,11 +52,11 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   type: vless
   server: 58.153.148.126
   port: 443
-  uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -149,23 +64,27 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaobo
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
+  type: vmess
+  server: ex1ogt73nzpqkac2.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaobo
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
   type: vless
-  server: fae6ca7a-tla000-tpkh0c-1r7od.hk3.hyhuawei.com
+  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
   port: 443
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
   udp: true
   tls: true
   skip-cert-verify: true
@@ -173,11 +92,11 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
   type: vless
-  server: 26a9920c-tla000-tyt0e8-1mh67.hk3.hyhuawei.com
+  server: c302b802-tla000-u10a65-1os43.hk3.hyhuawei.com
   port: 443
-  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
   udp: true
   tls: true
   skip-cert-verify: true
@@ -185,55 +104,7 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 16 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 17 - xiaobo
-  type: vless
-  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
-  port: 443
-  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 18 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 19 - xiaobo
-  type: vless
-  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
-  port: 443
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 20 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaobo
   type: vless
   server: 5c8575f4-tl4g00-u1vxv2-v3c2.hk3.hyhuawei.com
   port: 443
@@ -244,32 +115,24 @@ proxies:
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 21 - xiaobo
-  type: vless
-  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaobo
+  type: vmess
+  server: vah4urdzl3jdx5r2.v.3dns.vip
   port: 443
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 22 - xiaobo
-  type: vless
-  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
-  port: 443
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 23 - xiaobo
+  servername: vah4urdzl3jdx5r2.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: vah4urdzl3jdx5r2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaobo
   type: vless
   server: c302b802-tla000-u10a65-1os43.hk3.hyhuawei.com
   port: 443
@@ -281,11 +144,11 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 24 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaobo
   type: vless
-  server: 826ff98e-tla000-tuklme-ueq.hk3.hyhuawei.com
+  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
   port: 443
-  uuid: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
+  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
   udp: true
   tls: true
   skip-cert-verify: true
@@ -293,7 +156,331 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaobo
+  type: vmess
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: U2FRxj0G13vDI0Wo.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: U2FRxj0G13vDI0Wo.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaobo
+  type: vless
+  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  port: 443
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 15 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 16 - xiaobo
+  type: vless
+  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
+  port: 443
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 17 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 18 - xiaobo
+  type: vless
+  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
+  port: 443
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 19 - xiaobo
+  type: vless
+  server: 6342844e-tla000-tlpfci-1jdha.hk3.hyhuawei.com
+  port: 443
+  uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 20 - xiaobo
+  type: vless
+  server: 19a3f02e-tla000-tl6lcj-tng5.hk3.hyhuawei.com
+  port: 443
+  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: edge
+- name: 🇭🇰 中国香港 (Hong Kong) 21 - xiaobo
+  type: vless
+  server: 26a9920c-tla000-tyt0e8-1mh67.hk3.hyhuawei.com
+  port: 443
+  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 22 - xiaobo
+  type: vmess
+  server: i2psm3knof5qjjix.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: I2PSm3Knof5qjjix.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: I2PSm3Knof5qjjix.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 23 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 24 - xiaobo
+  type: vless
+  server: 619c9ae2-tla000-tls5or-6gn6.hk3.hyhuawei.com
+  port: 443
+  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: qq
 - name: 🇭🇰 中国香港 (Hong Kong) 25 - xiaobo
+  type: vmess
+  server: u2frxj0g13vdi0wo.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ''
+- name: 🇭🇰 中国香港 (Hong Kong) 26 - xiaobo
+  type: vmess
+  server: m01c7b2z26dtqgee.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: M01c7B2z26DtQGEe.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: M01c7B2z26DtQGEe.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 27 - xiaobo
+  type: vmess
+  server: 47.86.107.119
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lcv8v9l7OyamxxfZ.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: lcv8v9l7OyamxxfZ.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 28 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 29 - xiaobo
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ejomsxptp19apygl.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: ejomsxptp19apygl.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 30 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 31 - xiaobo
+  type: vless
+  server: a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com
+  port: 443
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 32 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 33 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 5dc6fa05-a601-aba6-7761-ecde22d2b0fc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 34 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 35 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: c12f73f6-e8c7-11ed-9246-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 36 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 37 - xiaobo
+  type: vless
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  port: 443
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 38 - xiaobo
   type: vless
   server: 58.153.148.126
   port: 443
@@ -305,7 +492,47 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 26 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 39 - xiaobo
+  type: vless
+  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  port: 443
+  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: safari
+- name: 🇭🇰 中国香港 (Hong Kong) 40 - xiaobo
+  type: vmess
+  server: drbkg16egf3fzlm3.v.3dns.vip
+  port: 443
+  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: drbkg16egf3fzlm3.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: drbkg16egf3fzlm3.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 41 - xiaobo
+  type: vless
+  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
+  port: 443
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: ios
+- name: 🇭🇰 中国香港 (Hong Kong) 42 - xiaobo
   type: vmess
   server: 47.83.19.148
   port: 443
@@ -321,45 +548,21 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 27 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 43 - xiaobo
   type: vless
   server: 58.153.148.126
   port: 443
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 28 - xiaobo
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 44 - xiaobo
   type: vless
-  server: 19a3f02e-tla000-tl6lcj-tng5.hk3.hyhuawei.com
-  port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 29 - xiaobo
-  type: vless
-  server: 7306ab60-tla000-tlvr2y-1imi4.hk3.hyhuawei.com
-  port: 443
-  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 30 - xiaobo
-  type: vless
-  server: 58.153.148.126
+  server: 5c8575f4-tl4g00-u1vxv2-v3c2.hk3.hyhuawei.com
   port: 443
   uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   udp: true
@@ -368,32 +571,8 @@ proxies:
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 31 - xiaobo
-  type: vless
-  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
-  port: 443
-  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 32 - xiaobo
-  type: vless
-  server: a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com
-  port: 443
-  uuid: 526a1128-7487-11ee-9bca-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 33 - xiaobo
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 45 - xiaobo
   type: vless
   server: 0deecae9-tl4g00-tls5or-6gn6.hk3.hyhuawei.com
   port: 443
@@ -405,163 +584,7 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 34 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 35 - xiaobo
-  type: vless
-  server: 5c8575f4-tl4g00-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 36 - xiaobo
-  type: vless
-  server: 6342844e-tla000-tlpfci-1jdha.hk3.hyhuawei.com
-  port: 443
-  uuid: de629d50-1711-11ed-bd7c-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 37 - xiaobo
-  type: vless
-  server: c302b802-tla000-u10a65-1os43.hk3.hyhuawei.com
-  port: 443
-  uuid: 96c798f6-4645-11ee-b8a1-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 38 - xiaobo
-  type: vless
-  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
-  port: 443
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 39 - xiaobo
-  type: vless
-  server: 19a3f02e-tla000-tl6lcj-tng5.hk3.hyhuawei.com
-  port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 40 - xiaobo
-  type: vless
-  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 41 - xiaobo
-  type: vless
-  server: 5c8575f4-tl4g00-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: firefox
-- name: 🇭🇰 中国香港 (Hong Kong) 42 - xiaobo
-  type: vless
-  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: safari
-- name: 🇭🇰 中国香港 (Hong Kong) 43 - xiaobo
-  type: vless
-  server: ac35c80b-tla000-tpmc23-1s3lb.hk3.hyhuawei.com
-  port: 443
-  uuid: fbf91120-50ba-11ef-a203-f23c91cfbbc9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: qq
-- name: 🇭🇰 中国香港 (Hong Kong) 44 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 45 - xiaobo
-  type: vless
-  server: 58.153.148.126
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 46 - xiaobo
-  type: vless
-  server: 5c8575f4-tl4g00-u1vxv2-v3c2.hk3.hyhuawei.com
-  port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
-  servername: updates.cdn-apple.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 47 - xiaobo
   type: vless
   server: a95a660c-tla000-tpw4i4-1pckg.hk3.hyhuawei.com
   port: 443
@@ -572,10 +595,22 @@ proxies:
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: qq
+  client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 47 - xiaobo
+  type: vless
+  server: 58.153.148.126
+  port: 443
+  uuid: 40fb1315-191a-11ed-b0ca-f23c91cfbbc9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: firefox
 - name: 🇭🇰 中国香港 (Hong Kong) 48 - xiaobo
   type: vless
-  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  server: 58.153.148.126
   port: 443
   uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
   udp: true
@@ -587,16 +622,16 @@ proxies:
   client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 49 - xiaobo
   type: vless
-  server: 58.153.148.126
+  server: 6d91ade4-tla000-tw2fdz-1s824.hk3.hyhuawei.com
   port: 443
-  uuid: 2ec58858-976b-11ea-82ef-f23c9164ca5d
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
-  client-fingerprint: firefox
+  client-fingerprint: safari
 - name: 🇭🇰 中国香港 (Hong Kong) 50 - xiaobo
   type: vless
   server: 58.153.148.126
@@ -609,6 +644,46 @@ proxies:
     public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
   servername: updates.cdn-apple.com
   client-fingerprint: chrome
+- name: 🇭🇰 中国香港 (Hong Kong) 51 - xiaobo
+  type: vless
+  server: bdd23461-tla000-tvvhcz-tl32.hk3.hyhuawei.com
+  port: 443
+  uuid: 5c02ab88-7b9c-11ea-8fc9-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: qq
+- name: 🇭🇰 中国香港 (Hong Kong) 52 - xiaobo
+  type: vless
+  server: 5fca3221-tl4g00-tpkh0c-1r7od.hk3.hyhuawei.com
+  port: 443
+  uuid: 6d56436c-150d-11f0-b0c8-f23c913c8d2b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: bE6ws6dFPflj8WVJMGwtso0WOaiSmBOHM2muQO2Uul4
+  servername: updates.cdn-apple.com
+  client-fingerprint: firefox
+- name: 🇭🇰 中国香港 (Hong Kong) 53 - xiaobo
+  type: vmess
+  server: wwafj5lhl6bi8au9.v.3dns.vip
+  port: 443
+  uuid: f23bb427c1f94373876c2f43e9f790f3
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: wwafj5lhl6bi8au9.v.3dns.vip
+  network: ws
+  ws-opts:
+    path: /ws-vmess
+    headers:
+      Host: wwafj5lhl6bi8au9.v.3dns.vip
 proxy-groups:
 - name: PROXIES
   type: select
@@ -664,6 +739,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 48 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 49 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 50 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 51 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 52 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 53 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -719,5 +797,8 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 48 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 49 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 50 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 51 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 52 - xiaobo
+  - 🇭🇰 中国香港 (Hong Kong) 53 - xiaobo
 rules:
 - MATCH,PROXIES

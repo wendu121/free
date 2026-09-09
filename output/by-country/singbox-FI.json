@@ -6,26 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaobo",
-        "🇫🇮 FI 02 - xiaobo",
-        "🇫🇮 FI 03 - xiaobo",
-        "🇫🇮 FI 04 - xiaobo",
-        "🇫🇮 FI 05 - xiaobo",
-        "🇫🇮 FI 06 - xiaobo",
-        "🇫🇮 FI 07 - xiaobo"
+        "🇫🇮 FI 01 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaobo",
-        "🇫🇮 FI 02 - xiaobo",
-        "🇫🇮 FI 03 - xiaobo",
-        "🇫🇮 FI 04 - xiaobo",
-        "🇫🇮 FI 05 - xiaobo",
-        "🇫🇮 FI 06 - xiaobo",
-        "🇫🇮 FI 07 - xiaobo"
+        "🇫🇮 FI 01 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },

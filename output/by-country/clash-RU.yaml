@@ -5,62 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: /63vp7pdl1GXaTpa6kkWd2+3tq3/szSAWueVKo26xM8=
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  type: vless
-  server: 45.9.15.206
-  port: 443
-  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ru05.abvpn.ru
-  network: ws
-  ws-opts:
-    path: /websocket
-    headers:
-      Host: ru05.abvpn.ru
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /casc
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
-  type: ss
-  server: 138.124.68.88
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: Y2ZlN
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaobo
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: vless
   server: ru05.abvpn.ru
   port: 443
@@ -74,7 +25,35 @@ proxies:
     path: /websocket
     headers:
       Host: ru05.abvpn.ru
-- name: 🇷🇺 俄罗斯 (Russia) 07 - xiaobo
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
+  type: vless
+  server: ru05.abvpn.ru
+  port: 443
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ru05.abvpn.ru
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: ru05.abvpn.ru
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
+  type: vless
+  server: 45.9.15.206
+  port: 443
+  uuid: a289a3d3-5833-4b28-8809-ae72898a98d0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ru05.abvpn.ru
+  network: ws
+  ws-opts:
+    path: /websocket
+    headers:
+      Host: ru05.abvpn.ru
+- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
   type: vless
   server: 45.9.15.206
   port: 443
@@ -88,20 +67,20 @@ proxies:
     path: /websocket
     headers:
       Host: 45.9.15.206
-- name: 🇷🇺 俄罗斯 (Russia) 08 - xiaobo
+- name: 🇷🇺 俄罗斯 (Russia) 06 - xiaobo
   type: vless
-  server: 188.114.97.8
-  port: 8443
-  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  server: 46.8.200.91
+  port: 443
+  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cRIMSON-LeAf-7E45.hzhdUuEBFjDCB.workERs.DEv
+  servername: cf3.rumedia-cdn.com
   network: ws
   ws-opts:
-    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    path: /casc
     headers:
-      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+      Host: cf3.rumedia-cdn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -113,8 +92,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -126,7 +103,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 06 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 07 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 08 - xiaobo
 rules:
 - MATCH,PROXIES
