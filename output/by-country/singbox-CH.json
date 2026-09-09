@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - xiaobo",
+        "🇨🇭 CH 02 - xiaobo",
+        "🇨🇭 CH 03 - xiaobo",
+        "🇨🇭 CH 04 - xiaobo"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - xiaobo",
+        "🇨🇭 CH 02 - xiaobo",
+        "🇨🇭 CH 03 - xiaobo",
+        "🇨🇭 CH 04 - xiaobo"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

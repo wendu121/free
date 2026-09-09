@@ -13,38 +13,24 @@ proxies:
   udp: true
 - name: 🇿🇦 ZA 02 - xiaobo
   type: ss
-  server: 102.133.165.160
-  port: 16233
-  cipher: chacha20-ietf-poly1305
-  password: Xsy8Ox4yOV3xLlpxtjzs3X
-  udp: true
-- name: 🇿🇦 ZA 03 - xiaobo
-  type: ss
   server: 20.164.211.25
   port: 443
   cipher: chacha20-ietf-poly1305
   password: BhYMkBpjAjE6ixSw
   udp: true
-- name: 🇿🇦 ZA 04 - xiaobo
+- name: 🇿🇦 ZA 03 - xiaobo
   type: ss
-  server: 20.164.43.105
-  port: 443
+  server: 102.133.165.160
+  port: 16233
   cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
+  password: Xsy8Ox4yOV3xLlpxtjzs3X
   udp: true
-- name: 🇿🇦 ZA 05 - xiaobo
+- name: 🇿🇦 ZA 04 - xiaobo
   type: ss
   server: 139.84.247.164
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: tfAcRikawhNoZAhu
-  udp: true
-- name: 🇿🇦 ZA 06 - xiaobo
-  type: ss
-  server: 20.164.43.105
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: BhYMkBpjAjE6ixSw
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -55,8 +41,6 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaobo
   - 🇿🇦 ZA 03 - xiaobo
   - 🇿🇦 ZA 04 - xiaobo
-  - 🇿🇦 ZA 05 - xiaobo
-  - 🇿🇦 ZA 06 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -66,7 +50,5 @@ proxy-groups:
   - 🇿🇦 ZA 02 - xiaobo
   - 🇿🇦 ZA 03 - xiaobo
   - 🇿🇦 ZA 04 - xiaobo
-  - 🇿🇦 ZA 05 - xiaobo
-  - 🇿🇦 ZA 06 - xiaobo
 rules:
 - MATCH,PROXIES
