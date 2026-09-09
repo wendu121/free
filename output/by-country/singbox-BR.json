@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 ID 01 - xiaobo"
+        "🇧🇷 BR 01 - xiaobo",
+        "🇧🇷 BR 02 - xiaobo",
+        "🇧🇷 BR 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - xiaobo"
+        "🇧🇷 BR 01 - xiaobo",
+        "🇧🇷 BR 02 - xiaobo",
+        "🇧🇷 BR 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
