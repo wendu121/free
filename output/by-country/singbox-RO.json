@@ -6,16 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - xiaobo",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaobo"
+        "🇷🇴 RO 01 - xiaobo",
+        "🇷🇴 RO 02 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - xiaobo",
-        "🇦🇪 阿联酋 (UAE) 02 - xiaobo"
+        "🇷🇴 RO 01 - xiaobo",
+        "🇷🇴 RO 02 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
