@@ -18,17 +18,49 @@ proxies:
     path: /
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇹🇭 TH 02 - xiaobo
+  type: vless
+  server: 104.16.100.66
+  port: 8880
+  uuid: 3e7bb66e-d7c6-4711-aa05-e4ab0ec58c6d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: shrill-cell-cca7.158-6fa.workers.dev
+- name: 🇹🇭 TH 03 - xiaobo
+  type: vmess
+  server: 118.193.57.167
+  port: 49667
+  uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d46bf492
+    headers:
+      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇹🇭 TH 01 - xiaobo
+  - 🇹🇭 TH 02 - xiaobo
+  - 🇹🇭 TH 03 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇹🇭 TH 01 - xiaobo
+  - 🇹🇭 TH 02 - xiaobo
+  - 🇹🇭 TH 03 - xiaobo
 rules:
 - MATCH,PROXIES

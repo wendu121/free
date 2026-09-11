@@ -6,38 +6,53 @@ log-level: info
 proxies:
 - name: 🇪🇪 EE 01 - xiaobo
   type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 45.80.108.236
+  port: 443
+  uuid: ef9d2063-0140-472b-8b17-ba02ba4b4435
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
+  servername: lively-resonance-4e12.electrocellco-cf-059.workers.dev
+  network: ws
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: lively-resonance-4e12.electrocellco-cf-059.workers.dev
 - name: 🇪🇪 EE 02 - xiaobo
   type: vless
   server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.170.135
-- name: 🇪🇪 EE 03 - xiaobo
-  type: vless
-  server: 94.183.170.135
   port: 8443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
   tls: true
   skip-cert-verify: true
   servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 03 - xiaobo
+  type: vless
+  server: 45.80.108.236
+  port: 443
+  uuid: ef9d2063-0140-472b-8b17-ba02ba4b4435
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lively-resonance-4e12.electrocellco-cf-059.workers.dev
+  network: ws
+  ws-opts:
+    path: /proxyip
+    headers:
+      Host: lively-resonance-4e12.electrocellco-cf-059.workers.dev
 - name: 🇪🇪 EE 04 - xiaobo
   type: vless
   server: 94.183.170.135
+  port: 8443
+  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: estproxy4.lockdwn.com
+- name: 🇪🇪 EE 05 - xiaobo
+  type: vless
+  server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
@@ -48,24 +63,6 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
-- name: 🇪🇪 EE 05 - xiaobo
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 06 - xiaobo
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -76,7 +73,6 @@ proxy-groups:
   - 🇪🇪 EE 03 - xiaobo
   - 🇪🇪 EE 04 - xiaobo
   - 🇪🇪 EE 05 - xiaobo
-  - 🇪🇪 EE 06 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -87,6 +83,5 @@ proxy-groups:
   - 🇪🇪 EE 03 - xiaobo
   - 🇪🇪 EE 04 - xiaobo
   - 🇪🇪 EE 05 - xiaobo
-  - 🇪🇪 EE 06 - xiaobo
 rules:
 - MATCH,PROXIES
