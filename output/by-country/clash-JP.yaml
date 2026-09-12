@@ -5,127 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇯🇵 日本 (Japan) 01 - xiaobo
-  type: ss
-  server: 84.247.155.196
-  port: 80
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 02 - xiaobo
-  type: vless
-  server: 172.105.225.6
-  port: 443
-  uuid: 4ec2c66e-becd-4c51-9d6d-9ef74b27c95a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: decf.xzdq.eu.org
-  network: ws
-  ws-opts:
-    path: /api/v1/539e86
-    headers:
-      Host: decf.xzdq.eu.org
-- name: 🇯🇵 日本 (Japan) 03 - xiaobo
-  type: ss
-  server: 149.22.87.240
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 04 - xiaobo
-  type: ss
-  server: 84.247.155.196
-  port: 443
-  cipher: aes-256-gcm
-  password: 3eOFeNssde7PYYMv
-  udp: true
-- name: 🇯🇵 日本 (Japan) 05 - xiaobo
-  type: vless
-  server: 172.104.81.253
-  port: 443
-  uuid: 4ec2c66e-becd-4c51-9d6d-9ef74b27c95a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: decf.xzdq.eu.org
-  network: ws
-  ws-opts:
-    path: /api/v1/539e86
-    headers:
-      Host: decf.xzdq.eu.org
-- name: 🇯🇵 日本 (Japan) 06 - xiaobo
-  type: ss
-  server: 149.22.87.241
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 07 - xiaobo
-  type: vless
-  server: 167.179.111.237
-  port: 443
-  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mia3.pages.dev
-  network: ws
-  ws-opts:
-    path: /TG:@MiaChatChannel
-    headers:
-      Host: mia3.pages.dev
-- name: 🇯🇵 日本 (Japan) 08 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 09 - xiaobo
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 10 - xiaobo
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 11 - xiaobo
-  type: ss
-  server: 149.22.87.204
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇯🇵 日本 (Japan) 12 - xiaobo
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 13 - xiaobo
   type: vmess
   server: 155.248.176.44
   port: 55216
@@ -135,14 +14,103 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 14 - xiaobo
+- name: 🇯🇵 日本 (Japan) 02 - xiaobo
   type: ss
   server: 149.22.87.241
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 15 - xiaobo
+- name: 🇯🇵 日本 (Japan) 03 - xiaobo
+  type: ss
+  server: 84.247.155.196
+  port: 80
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
+- name: 🇯🇵 日本 (Japan) 04 - xiaobo
+  type: ss
+  server: 149.22.87.204
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 05 - xiaobo
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 06 - xiaobo
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 07 - xiaobo
+  type: vmess
+  server: 45.32.57.118
+  port: 4433
+  uuid: 35b89832-0a7c-48dd-8d1c-a2891b522195
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 08 - xiaobo
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 09 - xiaobo
+  type: vmess
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 10 - xiaobo
+  type: ss
+  server: 149.22.87.241
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 11 - xiaobo
+  type: ss
+  server: 149.22.87.240
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇯🇵 日本 (Japan) 12 - xiaobo
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 13 - xiaobo
   type: vless
   server: 162.159.254.3
   port: 443
@@ -156,30 +124,63 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇯🇵 日本 (Japan) 16 - xiaobo
+- name: 🇯🇵 日本 (Japan) 14 - xiaobo
+  type: ss
+  server: 176.97.73.215
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: ma6zc4JoLRJA
+  udp: true
+- name: 🇯🇵 日本 (Japan) 15 - xiaobo
   type: ss
   server: 149.22.87.204
   port: 443
   cipher: aes-128-gcm
   password: shadowsocks
   udp: true
-- name: 🇯🇵 日本 (Japan) 17 - xiaobo
-  type: vless
-  server: 137.220.221.179
-  port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+- name: 🇯🇵 日本 (Japan) 16 - xiaobo
+  type: ss
+  server: 185.141.219.167
+  port: 8388
+  cipher: aes-256-gcm
+  password: BHRwNRhwqUtDzeRT
   udp: true
-  tls: false
-  skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 17 - xiaobo
+  type: ss
+  server: 84.247.155.196
+  port: 443
+  cipher: aes-256-gcm
+  password: 3eOFeNssde7PYYMv
+  udp: true
 - name: 🇯🇵 日本 (Japan) 18 - xiaobo
   type: vless
-  server: 137.220.221.179
+  server: 104.21.33.59
   port: 443
-  uuid: a16a3336-c9ab-489f-9b85-c973f5e2cfa4
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🇯🇵 日本 (Japan) 19 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 20 - xiaobo
   type: vless
   server: 137.220.221.179
   port: 443
@@ -187,16 +188,72 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇯🇵 日本 (Japan) 20 - xiaobo
+- name: 🇯🇵 日本 (Japan) 21 - xiaobo
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 22 - xiaobo
   type: vmess
-  server: 168.110.60.104
-  port: 18112
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
+  server: 155.248.176.44
+  port: 55216
+  uuid: 154dbc39-0921-cf11-29bd-156c5000d763
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇯🇵 日本 (Japan) 23 - xiaobo
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 24 - xiaobo
+  type: vless
+  server: 172.67.156.147
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇯🇵 日本 (Japan) 25 - xiaobo
+  type: vless
+  server: 172.105.225.6
+  port: 443
+  uuid: 4ec2c66e-becd-4c51-9d6d-9ef74b27c95a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: decf.xzdq.eu.org
+  network: ws
+  ws-opts:
+    path: /api/v1/539e86
+    headers:
+      Host: decf.xzdq.eu.org
 proxy-groups:
 - name: PROXIES
   type: select
@@ -222,6 +279,11 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 18 - xiaobo
   - 🇯🇵 日本 (Japan) 19 - xiaobo
   - 🇯🇵 日本 (Japan) 20 - xiaobo
+  - 🇯🇵 日本 (Japan) 21 - xiaobo
+  - 🇯🇵 日本 (Japan) 22 - xiaobo
+  - 🇯🇵 日本 (Japan) 23 - xiaobo
+  - 🇯🇵 日本 (Japan) 24 - xiaobo
+  - 🇯🇵 日本 (Japan) 25 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -247,5 +309,10 @@ proxy-groups:
   - 🇯🇵 日本 (Japan) 18 - xiaobo
   - 🇯🇵 日本 (Japan) 19 - xiaobo
   - 🇯🇵 日本 (Japan) 20 - xiaobo
+  - 🇯🇵 日本 (Japan) 21 - xiaobo
+  - 🇯🇵 日本 (Japan) 22 - xiaobo
+  - 🇯🇵 日本 (Japan) 23 - xiaobo
+  - 🇯🇵 日本 (Japan) 24 - xiaobo
+  - 🇯🇵 日本 (Japan) 25 - xiaobo
 rules:
 - MATCH,PROXIES
