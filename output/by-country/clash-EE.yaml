@@ -16,24 +16,6 @@ proxies:
 - name: 🇪🇪 EE 02 - xiaobo
   type: vless
   server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 03 - xiaobo
-  type: vless
-  server: 94.183.170.135
-  port: 8443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: estproxy4.lockdwn.com
-- name: 🇪🇪 EE 04 - xiaobo
-  type: vless
-  server: 94.183.170.135
   port: 443
   uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
   udp: true
@@ -51,8 +33,6 @@ proxy-groups:
   - AUTO
   - 🇪🇪 EE 01 - xiaobo
   - 🇪🇪 EE 02 - xiaobo
-  - 🇪🇪 EE 03 - xiaobo
-  - 🇪🇪 EE 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -60,7 +40,5 @@ proxy-groups:
   proxies:
   - 🇪🇪 EE 01 - xiaobo
   - 🇪🇪 EE 02 - xiaobo
-  - 🇪🇪 EE 03 - xiaobo
-  - 🇪🇪 EE 04 - xiaobo
 rules:
 - MATCH,PROXIES
