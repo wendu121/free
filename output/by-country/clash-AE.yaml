@@ -6,75 +6,29 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaobo
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 104.24.219.225
+  port: 443
+  uuid: c2c3de71-5ec5-430c-b096-81969b16ff8d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: cdnfree.abdollahvand2.ir
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 02 - xiaobo
-  type: vless
-  server: 45.192.224.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime17.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  type: vless
-  server: 116.204.164.27
-  port: 7443
-  uuid: c82e5af9-5fef-4fdd-9454-2682873e1563
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: c6dbx99g6stb418qeo.t3jmlj0r152zji4htdkm9.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaobo
-  type: vless
-  server: 92.113.124.204
-  port: 18443
-  uuid: f5ca311f-6ce6-422e-a6ea-e2877d4a620c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 8n9qi6t-owl.gevc9s4n60cc3wzcmwhjyezydpmbchocxp.workers.dev
+      Host: cdnfree.abdollahvand2.ir
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇦🇪 阿联酋 (UAE) 01 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 02 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaobo
 rules:
 - MATCH,PROXIES
