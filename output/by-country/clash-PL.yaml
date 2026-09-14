@@ -5,26 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaobo
-  type: vless
-  server: 178.95.170.115
-  port: 2087
-  uuid: bf443e4a-aa9e-4509-abf0-d0f6828d57be
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /4bc027a44532
-    headers:
-      Host: 178.95.170.115
-- name: 🇵🇱 PL 02 - xiaobo
   type: ss
   server: 194.61.121.93
   port: 7538
   cipher: chacha20-ietf-poly1305
   password: U9YAoqBgg5VyGBc6vQv1sN
   udp: true
-- name: 🇵🇱 PL 03 - xiaobo
+- name: 🇵🇱 PL 02 - xiaobo
   type: vless
   server: 178.95.170.115
   port: 2087
@@ -37,19 +24,6 @@ proxies:
     path: /4bc027a44532
     headers:
       Host: 178.95.170.115
-- name: 🇵🇱 PL 04 - xiaobo
-  type: vless
-  server: 94.183.209.59
-  port: 443
-  uuid: d23cb516-40db-4aa4-8142-6b45ff882f90
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 94.183.209.59
 proxy-groups:
 - name: PROXIES
   type: select
@@ -57,8 +31,6 @@ proxy-groups:
   - AUTO
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
-  - 🇵🇱 PL 03 - xiaobo
-  - 🇵🇱 PL 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -66,7 +38,5 @@ proxy-groups:
   proxies:
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
-  - 🇵🇱 PL 03 - xiaobo
-  - 🇵🇱 PL 04 - xiaobo
 rules:
 - MATCH,PROXIES
