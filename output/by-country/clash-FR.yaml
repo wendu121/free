@@ -5,12 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - xiaobo
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
+  type: vless
+  server: 158.180.231.216
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 02 - xiaobo
   type: vless
   server: 152.228.162.19
@@ -25,6 +32,31 @@ proxies:
     headers:
       Host: 152.228.162.19
 - name: 🇫🇷 法国 (France) 03 - xiaobo
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 04 - xiaobo
+  type: ss
+  server: 79.137.207.190
+  port: 2
+  cipher: chacha20-ietf-poly1305
+  password: 9ri2bpxWs4FHXRjlhTFlQQ
+  udp: true
+- name: 🇫🇷 法国 (France) 05 - xiaobo
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
+  udp: true
+- name: 🇫🇷 法国 (France) 06 - xiaobo
   type: vless
   server: 45.144.28.39
   port: 2096
@@ -37,7 +69,21 @@ proxies:
     path: /
     headers:
       Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 04 - xiaobo
+- name: 🇫🇷 法国 (France) 07 - xiaobo
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 08 - xiaobo
   type: vless
   server: 149.202.58.99
   port: 443
@@ -51,35 +97,14 @@ proxies:
     path: /vws/
     headers:
       Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 05 - xiaobo
-  type: vless
-  server: 45.144.28.39
-  port: 2096
-  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 45.144.28.39
-- name: 🇫🇷 法国 (France) 06 - xiaobo
-  type: vless
-  server: 15.236.17.252
-  port: 22223
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 07 - xiaobo
+- name: 🇫🇷 法国 (France) 09 - xiaobo
   type: ss
-  server: 79.137.207.190
-  port: 2
-  cipher: chacha20-ietf-poly1305
-  password: 9ri2bpxWs4FHXRjlhTFlQQ
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-- name: 🇫🇷 法国 (France) 08 - xiaobo
+- name: 🇫🇷 法国 (France) 10 - xiaobo
   type: vless
   server: usejh2.neobo-tooth.ru
   port: 2096
@@ -92,64 +117,71 @@ proxies:
     path: /
     headers:
       Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 09 - xiaobo
-  type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
-- name: 🇫🇷 法国 (France) 10 - xiaobo
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: bab-6.site
 - name: 🇫🇷 法国 (France) 11 - xiaobo
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇫🇷 法国 (France) 12 - xiaobo
   type: vless
-  server: 35.181.254.51
-  port: 22222
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  server: usejh2.neobo-tooth.ru
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇷 法国 (France) 13 - xiaobo
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: usejh2.neobo-tooth.ru
+- name: 🇫🇷 法国 (France) 12 - xiaobo
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 13 - xiaobo
+  type: vless
+  server: 45.144.28.39
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vws/
+    path: /
     headers:
-      Host: 149.202.58.99
+      Host: 45.144.28.39
 - name: 🇫🇷 法国 (France) 14 - xiaobo
+  type: vless
+  server: 45.144.28.39
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 45.144.28.39
+- name: 🇫🇷 法国 (France) 15 - xiaobo
+  type: vless
+  server: 45.144.28.39
+  port: 2096
+  uuid: 70e20b2e-3b1f-4c25-9a3d-9240570391bb
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 45.144.28.39
+- name: 🇫🇷 法国 (France) 16 - xiaobo
   type: vmess
   server: 162.19.204.71
   port: 1234
@@ -160,6 +192,22 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
+- name: 🇫🇷 法国 (France) 17 - xiaobo
+  type: vless
+  server: 13.39.182.161
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇫🇷 法国 (France) 18 - xiaobo
+  type: vless
+  server: 13.37.25.107
+  port: 22223
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -179,6 +227,10 @@ proxy-groups:
   - 🇫🇷 法国 (France) 12 - xiaobo
   - 🇫🇷 法国 (France) 13 - xiaobo
   - 🇫🇷 法国 (France) 14 - xiaobo
+  - 🇫🇷 法国 (France) 15 - xiaobo
+  - 🇫🇷 法国 (France) 16 - xiaobo
+  - 🇫🇷 法国 (France) 17 - xiaobo
+  - 🇫🇷 法国 (France) 18 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -198,5 +250,9 @@ proxy-groups:
   - 🇫🇷 法国 (France) 12 - xiaobo
   - 🇫🇷 法国 (France) 13 - xiaobo
   - 🇫🇷 法国 (France) 14 - xiaobo
+  - 🇫🇷 法国 (France) 15 - xiaobo
+  - 🇫🇷 法国 (France) 16 - xiaobo
+  - 🇫🇷 法国 (France) 17 - xiaobo
+  - 🇫🇷 法国 (France) 18 - xiaobo
 rules:
 - MATCH,PROXIES
