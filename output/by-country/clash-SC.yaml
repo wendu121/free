@@ -6,59 +6,30 @@ log-level: info
 proxies:
 - name: 🇸🇨 SC 01 - xiaobo
   type: vless
-  server: 108.162.198.178
-  port: 8080
+  server: 172.64.42.85
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇸🇨 SC 02 - xiaobo
   type: vless
-  server: 45.130.125.73
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-cea58e4acf49
+  server: 162.159.45.19
+  port: 2086
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: web-app-aug8yr.app-f1qsy1.workers.dev
   network: ws
   ws-opts:
-    path: /api/ws
+    path: /?ed=2560security=tls
     headers:
-      Host: web-app-aug8yr.app-f1qsy1.workers.dev
-- name: 🇸🇨 SC 03 - xiaobo
-  type: vless
-  server: 172.67.223.101
-  port: 2087
-  uuid: 5a0028f9-c656-cec9-4b61-54678477a408
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: green-credit-7e7b.vpnfreev2rayconfig-sale1.workers.dev
-- name: 🇸🇨 SC 04 - xiaobo
-  type: vless
-  server: 104.21.238.93
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-44890b90d17e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: afzoybehu2ws.vtzv4xe1un6s.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/44890b90d17e/loc-0
-    headers:
-      Host: afzoybehu2ws.vtzv4xe1un6s.workers.dev
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇸🇨 SC 01 - xiaobo
   - 🇸🇨 SC 02 - xiaobo
-  - 🇸🇨 SC 03 - xiaobo
-  - 🇸🇨 SC 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇸🇨 SC 01 - xiaobo
   - 🇸🇨 SC 02 - xiaobo
-  - 🇸🇨 SC 03 - xiaobo
-  - 🇸🇨 SC 04 - xiaobo
 rules:
 - MATCH,PROXIES

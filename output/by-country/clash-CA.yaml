@@ -6,33 +6,19 @@ log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - xiaobo
   type: ss
+  server: 51.222.200.165
+  port: 5000
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 02 - xiaobo
+  type: ss
   server: 51.79.49.116
   port: 8882
   cipher: aes-256-gcm
   password: kDWvXYZoTBcGkC4
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 02 - xiaobo
-  type: ss
-  server: 51.79.85.185
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
 - name: 🇨🇦 加拿大 (Canada) 03 - xiaobo
-  type: vless
-  server: 104.21.78.225
-  port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
-- name: 🇨🇦 加拿大 (Canada) 04 - xiaobo
   type: vless
   server: 184.107.106.68
   port: 443
@@ -40,10 +26,17 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
+  servername: 184.107.106.68
+- name: 🇨🇦 加拿大 (Canada) 04 - xiaobo
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 05 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -62,34 +55,16 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 07 - xiaobo
-  type: vless
-  server: 188.114.96.3
-  port: 2087
-  uuid: 756e8f39-04e8-436d-b5c6-905d37d9562c
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: Ez-98919A.MOtoRicb.Workers.DeV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoiR1BxUFhYR0w1TlBLMTRsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
-    headers:
-      Host: ez-98919a.motoricb.workers.dev
 - name: 🇨🇦 加拿大 (Canada) 08 - xiaobo
-  type: vless
-  server: 104.21.46.14
-  port: 443
-  uuid: ea50b1a3-3a98-4c5e-a150-48ada40d68d7
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf-vless-4cf55824.aimall.fr
-  network: ws
-  ws-opts:
-    path: /connect
-    headers:
-      Host: cf-vless-4cf55824.aimall.fr
-- name: 🇨🇦 加拿大 (Canada) 09 - xiaobo
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -99,236 +74,38 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 09 - xiaobo
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 10 - xiaobo
   type: vless
-  server: lizca2.footballfantasyforum.com
+  server: 104.21.70.21
   port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
+  servername: bodyshine.help
+  network: ws
+  ws-opts:
+    path: /raccoonwsvless
+    headers:
+      Host: bodyshine.help
 - name: 🇨🇦 加拿大 (Canada) 11 - xiaobo
-  type: vless
-  server: 172.67.133.170
-  port: 443
-  uuid: 7c6a566b-4c4a-b8f2-1719-a3096b424141
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: peekconfigg.vipserver1-39d.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: peekconfigg.vipserver1-39d.workers.dev
 - name: 🇨🇦 加拿大 (Canada) 12 - xiaobo
-  type: vless
-  server: 172.67.137.223
-  port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
-- name: 🇨🇦 加拿大 (Canada) 13 - xiaobo
-  type: ss
-  server: 51.222.200.165
-  port: 5000
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 14 - xiaobo
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 184.107.106.68
-- name: 🇨🇦 加拿大 (Canada) 15 - xiaobo
-  type: ss
-  server: 51.222.155.113
-  port: 5601
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 16 - xiaobo
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - xiaobo
-  type: vless
-  server: 104.21.67.43
-  port: 443
-  uuid: 0aab6adc-104c-4339-8d25-09755ffe2cbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: liang92.dpdns.org
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: liang92.dpdns.org
-- name: 🇨🇦 加拿大 (Canada) 18 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 19 - xiaobo
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 20 - xiaobo
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 21 - xiaobo
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 22 - xiaobo
-  type: ss
-  server: 51.222.107.43
-  port: 2083
-  cipher: 2022-blake3-aes-256-gcm
-  password: cOiC+3JhAXMwdGV5exnrMSorJU0Rl5qlLCbCAuDlWY4=:HWFFJN19JkvbTKo/79AfnbRBK9uHUUaFNZJyLjEoJGs=
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 23 - xiaobo
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 24 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 25 - xiaobo
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 26 - xiaobo
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 27 - xiaobo
-  type: vless
-  server: lizca2.footballfantasyforum.com
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 28 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 29 - xiaobo
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 30 - xiaobo
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 31 - xiaobo
-  type: vless
-  server: 184.107.106.68
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 184.107.106.68
-- name: 🇨🇦 加拿大 (Canada) 32 - xiaobo
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 33 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 34 - xiaobo
-  type: vless
-  server: lizca2.footballfantasyforum.com
-  port: 443
-  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lizca2.footballfantasyforum.com
-- name: 🇨🇦 加拿大 (Canada) 35 - xiaobo
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -340,27 +117,74 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 36 - xiaobo
+- name: 🇨🇦 加拿大 (Canada) 13 - xiaobo
   type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 37 - xiaobo
-  type: vless
-  server: 172.67.67.178
+  server: 149.22.95.183
   port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 14 - xiaobo
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 15 - xiaobo
+  type: ss
+  server: 166.88.130.218
+  port: 7018
+  cipher: aes-256-gcm
+  password: fbcec76953a2d173
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 16 - xiaobo
+  type: ss
+  server: 51.222.155.113
+  port: 5601
+  cipher: aes-256-gcm
+  password: Y6R9pAtvxxzmGC
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 17 - xiaobo
+  type: vless
+  server: 184.107.106.68
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 18 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 19 - xiaobo
+  type: vless
+  server: lizca2.footballfantasyforum.com
+  port: 443
+  uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lizca2.footballfantasyforum.com
+- name: 🇨🇦 加拿大 (Canada) 20 - xiaobo
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -386,23 +210,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 18 - xiaobo
   - 🇨🇦 加拿大 (Canada) 19 - xiaobo
   - 🇨🇦 加拿大 (Canada) 20 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 21 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 22 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 23 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 24 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 25 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 26 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 27 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 28 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 29 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 30 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 31 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 32 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 33 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 34 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 35 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 36 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 37 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -428,22 +235,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 18 - xiaobo
   - 🇨🇦 加拿大 (Canada) 19 - xiaobo
   - 🇨🇦 加拿大 (Canada) 20 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 21 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 22 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 23 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 24 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 25 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 26 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 27 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 28 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 29 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 30 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 31 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 32 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 33 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 34 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 35 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 36 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 37 - xiaobo
 rules:
 - MATCH,PROXIES
