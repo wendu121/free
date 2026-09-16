@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - xiaobo"
+        "🇱🇻 LV 01 - xiaobo",
+        "🇱🇻 LV 02 - xiaobo",
+        "🇱🇻 LV 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - xiaobo"
+        "🇱🇻 LV 01 - xiaobo",
+        "🇱🇻 LV 02 - xiaobo",
+        "🇱🇻 LV 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },

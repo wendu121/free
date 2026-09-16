@@ -6,64 +6,69 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaobo
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 1e158ab2-d28a-41c8-b31d-8ea2d8706fe7
+  server: cdn.snobvpn.online
+  port: 80
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /snob-ws
+    headers:
+      Host: cdn.snobvpn.online
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaobo
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: a6dca797-9803-4f2c-ae45-e6bd8d0e9842
+  server: 162.159.153.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  servername: rAyAn-007.mAxImA.DpDnS.OrG
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rAyAn-007.mAxImA.DpDnS.OrG
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaobo
   type: vless
   server: 89.125.147.199
   port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaobo
   type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: random
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaobo
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 70bd60b1-f399-4df4-ad32-9adc40ae5f2c
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 06 - xiaobo
   type: vless
   server: 89.125.147.199
@@ -78,20 +83,33 @@ proxies:
   client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaobo
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /snob-ws
-    headers:
-      Host: cdn.snobvpn.online
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: random
 - name: 🇦🇪 阿联酋 (UAE) 08 - xiaobo
   type: vless
-  server: 84.235.244.108
+  server: 172.67.221.230
+  port: 443
+  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: novantunnel.tech
+  network: ws
+  ws-opts:
+    path: /Novan-AE9
+    headers:
+      Host: novantunnel.tech
+- name: 🇦🇪 阿联酋 (UAE) 09 - xiaobo
+  type: vless
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -102,19 +120,34 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 09 - xiaobo
+- name: 🇦🇪 阿联酋 (UAE) 10 - xiaobo
   type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 175.41.179.37
+  port: 51262
+  uuid: 903fed13-8e78-4fa2-a83e-b392b289741f
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
   network: ws
   ws-opts:
-    path: /snob-ws
+    path: /@Marisa_kristi
     headers:
-      Host: cdn.snobvpn.online
+      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
+- name: 🇦🇪 阿联酋 (UAE) 11 - xiaobo
+  type: vless
+  server: 128.241.25.11
+  port: 30021
+  uuid: 72fbb611-628d-4afa-8198-bda3e38021f9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -129,6 +162,8 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
+  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
+  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -143,5 +178,7 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
+  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
+  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
 rules:
 - MATCH,PROXIES
