@@ -19,57 +19,44 @@ proxies:
       Host: cdn.snobvpn.online
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaobo
   type: vless
-  server: 162.159.153.4
-  port: 443
-  uuid: f2a73750-3087-48ff-a763-1348c15dce68
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.mAxImA.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rAyAn-007.mAxImA.DpDnS.OrG
-- name: 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  type: vless
   server: 89.125.147.199
   port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
+- name: 🇦🇪 阿联酋 (UAE) 03 - xiaobo
+  type: vless
+  server: 84.235.244.108
+  port: 22573
+  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 04 - xiaobo
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 151.242.160.148
+  port: 8090
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: askuhgfdsg.space.coupons
   network: ws
   ws-opts:
-    path: /
+    path: /ws
     headers:
-      Host: uae.unixzone.us
+      Host: askuhgfdsg.space.coupons
 - name: 🇦🇪 阿联酋 (UAE) 05 - xiaobo
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaobo
   type: vless
   server: 89.125.147.199
   port: 443
@@ -81,6 +68,20 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: firefox
+- name: 🇦🇪 阿联酋 (UAE) 06 - xiaobo
+  type: vless
+  server: 151.242.160.148
+  port: 8090
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: askuhgfdsg.space.coupons
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: askuhgfdsg.space.coupons
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaobo
   type: vless
   server: 89.125.147.199
@@ -93,61 +94,6 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  type: vless
-  server: 172.67.221.230
-  port: 443
-  uuid: ee556a4f-d9f6-44de-af02-42c51659416a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: novantunnel.tech
-  network: ws
-  ws-opts:
-    path: /Novan-AE9
-    headers:
-      Host: novantunnel.tech
-- name: 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  type: vless
-  server: 175.41.179.37
-  port: 51262
-  uuid: 903fed13-8e78-4fa2-a83e-b392b289741f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3tmj2egtm-fno.49bnithzk8vphybv36d1z1xkzfvogt2m6.workers.dev
-- name: 🇦🇪 阿联酋 (UAE) 11 - xiaobo
-  type: vless
-  server: 128.241.25.11
-  port: 30021
-  uuid: 72fbb611-628d-4afa-8198-bda3e38021f9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: 3t1yvbyla-rj740g.28m7r63dttya6gazmhoo.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -160,10 +106,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 06 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -176,9 +118,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 05 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 06 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
 rules:
 - MATCH,PROXIES

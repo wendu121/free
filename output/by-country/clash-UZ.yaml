@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇺🇿 UZ 01 - xiaobo
   type: vless
-  server: 104.24.30.89
-  port: 443
-  uuid: aebe5a70-0ca3-46ce-8208-8b5bab1346ce
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: rAyAn-007.nAsTaRaN.DpDnS.OrG
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: rayan-007.nastaran.dpdns.org
-- name: 🇺🇿 UZ 02 - xiaobo
-  type: vless
   server: 189.74.97.43
   port: 2087
   uuid: 10f7eb2d-d96d-4778-9d36-aff11e9d6629
@@ -31,49 +17,7 @@ proxies:
     path: /73b6faea2d00
     headers:
       Host: 189.74.97.43
-- name: 🇺🇿 UZ 03 - xiaobo
-  type: vless
-  server: 172.67.210.146
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
-    headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
-- name: 🇺🇿 UZ 04 - xiaobo
-  type: vless
-  server: 104.24.143.217
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
-    headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
-- name: 🇺🇿 UZ 05 - xiaobo
-  type: vless
-  server: 104.18.80.149
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4017ea8bea78
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: zeus-panel-mvtum1.mahdiharchegani.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4017ea8bea78/loc-4
-    headers:
-      Host: zeus-panel-mvtum1.mahdiharchegani.workers.dev
-- name: 🇺🇿 UZ 06 - xiaobo
+- name: 🇺🇿 UZ 02 - xiaobo
   type: vless
   server: 189.74.97.47
   port: 2087
@@ -86,33 +30,19 @@ proxies:
     path: /755276b33b6f
     headers:
       Host: 189.74.97.47
-- name: 🇺🇿 UZ 07 - xiaobo
+- name: 🇺🇿 UZ 03 - xiaobo
   type: vless
-  server: 104.25.155.45
-  port: 443
-  uuid: 50414e45-4c5f-5a45-5553-4eef5adc237a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: r5zenrelur2s.pqzdileiu8es.workers.dev
-  network: ws
-  ws-opts:
-    path: /stream/PANEL_ZEUS/4eef5adc237a/loc-1
-    headers:
-      Host: r5zenrelur2s.pqzdileiu8es.workers.dev
-- name: 🇺🇿 UZ 08 - xiaobo
-  type: vless
-  server: 189.74.97.43
+  server: 189.74.97.47
   port: 2087
-  uuid: 10f7eb2d-d96d-4778-9d36-aff11e9d6629
+  uuid: 894fe9f0-b998-49c0-8003-a5007de921e1
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /73b6faea2d00
+    path: /755276b33b6f
     headers:
-      Host: 189.74.97.43
+      Host: 189.74.97.47
 proxy-groups:
 - name: PROXIES
   type: select
@@ -121,11 +51,6 @@ proxy-groups:
   - 🇺🇿 UZ 01 - xiaobo
   - 🇺🇿 UZ 02 - xiaobo
   - 🇺🇿 UZ 03 - xiaobo
-  - 🇺🇿 UZ 04 - xiaobo
-  - 🇺🇿 UZ 05 - xiaobo
-  - 🇺🇿 UZ 06 - xiaobo
-  - 🇺🇿 UZ 07 - xiaobo
-  - 🇺🇿 UZ 08 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -134,10 +59,5 @@ proxy-groups:
   - 🇺🇿 UZ 01 - xiaobo
   - 🇺🇿 UZ 02 - xiaobo
   - 🇺🇿 UZ 03 - xiaobo
-  - 🇺🇿 UZ 04 - xiaobo
-  - 🇺🇿 UZ 05 - xiaobo
-  - 🇺🇿 UZ 06 - xiaobo
-  - 🇺🇿 UZ 07 - xiaobo
-  - 🇺🇿 UZ 08 - xiaobo
 rules:
 - MATCH,PROXIES
