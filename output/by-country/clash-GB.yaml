@@ -5,15 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇬🇧 英国 (United Kingdom) 01 - xiaobo
-  type: ss
-  server: 51.77.225.200
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: zRZNBszYyWo5
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 02 - xiaobo
   type: vless
-  server: 91.193.58.141
+  server: 91.193.58.195
   port: 443
   uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
   udp: true
@@ -25,13 +18,35 @@ proxies:
     path: Telegram-WangCai2🇨🇳
     headers:
       Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 03 - xiaobo
-  type: ss
-  server: 149.102.132.184
-  port: 443
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
+- name: 🇬🇧 英国 (United Kingdom) 02 - xiaobo
+  type: vmess
+  server: 57.129.132.223
+  port: 80
+  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: google.com
+- name: 🇬🇧 英国 (United Kingdom) 03 - xiaobo
+  type: vless
+  server: 129.121.95.159
+  port: 443
+  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 129.121.95.159
+  network: ws
+  ws-opts:
+    path: /connect
+    headers:
+      Host: 129.121.95.159
 - name: 🇬🇧 英国 (United Kingdom) 04 - xiaobo
   type: vless
   server: 91.193.58.117
@@ -48,20 +63,25 @@ proxies:
       Host: jamph131-1228.pages.dev
 - name: 🇬🇧 英国 (United Kingdom) 05 - xiaobo
   type: vmess
-  server: 57.129.132.223
-  port: 80
-  uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
   alterId: 0
   cipher: auto
   udp: true
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess/
-    headers:
-      Host: google.com
 - name: 🇬🇧 英国 (United Kingdom) 06 - xiaobo
+  type: vmess
+  server: 66.163.117.58
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇬🇧 英国 (United Kingdom) 07 - xiaobo
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -73,49 +93,7 @@ proxies:
     public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
   servername: www.apple.com
   client-fingerprint: firefox
-- name: 🇬🇧 英国 (United Kingdom) 07 - xiaobo
-  type: ss
-  server: 149.102.149.207
-  port: 443
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
 - name: 🇬🇧 英国 (United Kingdom) 08 - xiaobo
-  type: vless
-  server: 91.193.58.93
-  port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
-  network: ws
-  ws-opts:
-    path: Telegram-WangCai2🇨🇳
-    headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 09 - xiaobo
-  type: ss
-  server: 141.98.101.181
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 10 - xiaobo
-  type: ss
-  server: 149.102.132.184
-  port: 80
-  cipher: aes-256-gcm
-  password: g5h5jleTRSyO3Rk4
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 11 - xiaobo
-  type: ss
-  server: 144.24.226.249
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 12 - xiaobo
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -125,21 +103,7 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 13 - xiaobo
-  type: ss
-  server: 129.151.83.15
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 4HcH2eAbURZ4IN8H4EAgnOWL2suzf7iTJTogK+3MB1o=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 14 - xiaobo
-  type: ss
-  server: 144.24.225.111
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: xtHPuZw32Ek7q4odOVXoMn+UY9C/IdokDkolQjvdxrk=
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 15 - xiaobo
+- name: 🇬🇧 英国 (United Kingdom) 09 - xiaobo
   type: vless
   server: 46.250.250.149
   port: 2053
@@ -151,14 +115,14 @@ proxies:
     public-key: hieuCHb3HYdDYHmTDyWw2SGqyfo36AVuA-wSiZMdU1M
   servername: www.apple.com
   client-fingerprint: random
-- name: 🇬🇧 英国 (United Kingdom) 16 - xiaobo
+- name: 🇬🇧 英国 (United Kingdom) 10 - xiaobo
   type: ss
   server: 158.173.221.214
   port: 11001
   cipher: chacha20-ietf-poly1305
   password: c58d16e593d44f42
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 17 - xiaobo
+- name: 🇬🇧 英国 (United Kingdom) 11 - xiaobo
   type: vmess
   server: 66.163.117.58
   port: 22324
@@ -168,68 +132,53 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 18 - xiaobo
+- name: 🇬🇧 英国 (United Kingdom) 12 - xiaobo
   type: ss
-  server: 129.151.73.188
-  port: 61312
-  cipher: 2022-blake3-chacha20-poly1305
-  password: XXq8087l/F/17nlKDoxF5yHMha+CZIJKCj0UwWf0wRA=
+  server: 82.38.31.186
+  port: 8080
+  cipher: chacha20-ietf-poly1305
+  password: k1dBOmOB4oqi7Ump37a1bQ
   udp: true
-- name: 🇬🇧 英国 (United Kingdom) 19 - xiaobo
-  type: ss
-  server: 149.102.149.207
-  port: 80
-  cipher: aes-256-gcm
-  password: LXchLsIwtCeUAUgu
-  udp: true
-- name: 🇬🇧 英国 (United Kingdom) 20 - xiaobo
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇬🇧 英国 (United Kingdom) 21 - xiaobo
+- name: 🇬🇧 英国 (United Kingdom) 13 - xiaobo
   type: vless
-  server: 129.121.95.159
-  port: 443
-  uuid: f6190ff2-864c-46cf-ac16-93908c069b75
+  server: 78.129.208.44
+  port: 421
+  uuid: a3c861cb-e1e7-4ad6-8be2-7c2314ec6f18
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 129.121.95.159
-  network: ws
-  ws-opts:
-    path: /connect
-    headers:
-      Host: 129.121.95.159
-- name: 🇬🇧 英国 (United Kingdom) 22 - xiaobo
-  type: vless
-  server: 91.193.58.195
+  reality-opts:
+    public-key: zUdAvpr07q1Yd0Om-jc4-Vu4Un5tVird8FGoN-7W9Tg
+  servername: chistomat.dry.care
+  client-fingerprint: chrome
+- name: 🇬🇧 英国 (United Kingdom) 14 - xiaobo
+  type: ss
+  server: 51.77.225.200
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: zRZNBszYyWo5
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 15 - xiaobo
+  type: ss
+  server: 141.98.101.181
   port: 443
-  uuid: 9419f782-b18e-4c4b-ae95-a7a279fd021f
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇬🇧 英国 (United Kingdom) 16 - xiaobo
+  type: vless
+  server: 91.193.58.218
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jamph131-1228.pages.dev
+  servername: free-server.techsonic.dev
   network: ws
   ws-opts:
-    path: Telegram-WangCai2🇨🇳
+    path: /free-server.techsonic.dev
     headers:
-      Host: jamph131-1228.pages.dev
-- name: 🇬🇧 英国 (United Kingdom) 23 - xiaobo
-  type: vmess
-  server: 66.163.117.58
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
+      Host: free-server.techsonic.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -251,13 +200,6 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - xiaobo
   - 🇬🇧 英国 (United Kingdom) 15 - xiaobo
   - 🇬🇧 英国 (United Kingdom) 16 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 17 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 18 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 19 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 20 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 21 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 22 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 23 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -279,12 +221,5 @@ proxy-groups:
   - 🇬🇧 英国 (United Kingdom) 14 - xiaobo
   - 🇬🇧 英国 (United Kingdom) 15 - xiaobo
   - 🇬🇧 英国 (United Kingdom) 16 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 17 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 18 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 19 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 20 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 21 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 22 - xiaobo
-  - 🇬🇧 英国 (United Kingdom) 23 - xiaobo
 rules:
 - MATCH,PROXIES

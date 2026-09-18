@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇹 意大利 (Italy) 01 - xiaobo",
-        "🇮🇹 意大利 (Italy) 02 - xiaobo",
-        "🇮🇹 意大利 (Italy) 03 - xiaobo"
+        "🇷🇴 RO 01 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇹 意大利 (Italy) 01 - xiaobo",
-        "🇮🇹 意大利 (Italy) 02 - xiaobo",
-        "🇮🇹 意大利 (Italy) 03 - xiaobo"
+        "🇷🇴 RO 01 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
