@@ -6,23 +6,7 @@ log-level: info
 proxies:
 - name: 🇹🇼 中国台湾 (Taiwan) 01 - xiaobo
   type: vmess
-  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-  port: 443
-  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
-- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaobo
-  type: vmess
-  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
   port: 443
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   alterId: 0
@@ -36,6 +20,20 @@ proxies:
     path: ''
     headers:
       Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 02 - xiaobo
+  type: vless
+  server: 140.235.38.206
+  port: 443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /channels/act?ed=2560
+    headers:
+      Host: cdn8848.776676.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 03 - xiaobo
   type: vmess
   server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
@@ -65,22 +63,12 @@ proxies:
   servername: ''
   network: ws
   ws-opts:
-    path: ''
+    path: /
     headers:
       Host: ''
 - name: 🇹🇼 中国台湾 (Taiwan) 05 - xiaobo
   type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaobo
-  type: vmess
-  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
   port: 443
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   alterId: 0
@@ -88,12 +76,24 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  servername: ''
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 06 - xiaobo
+  type: vless
+  server: hinet1.2yly.com
+  port: 24215
+  uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: mdWKUPMVTtTbDqK10BPb89OcqBC2-Lx-4NOYtqc1GWE
+  servername: addons.mozilla.org
+  client-fingerprint: chrome
 - name: 🇹🇼 中国台湾 (Taiwan) 07 - xiaobo
   type: vless
   server: 60.248.219.52
@@ -110,15 +110,53 @@ proxies:
       Host: ty986gfazs.cainiaohub.xyz
 - name: 🇹🇼 中国台湾 (Taiwan) 08 - xiaobo
   type: vmess
-  server: 165.154.195.38
-  port: 35034
-  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  server: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
   alterId: 0
   cipher: auto
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: dee2309db4944c248b6d4672c6641e25.oylfmxz.cn
 - name: 🇹🇼 中国台湾 (Taiwan) 09 - xiaobo
+  type: vmess
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 10 - xiaobo
+  type: vmess
+  server: dee2309db4se3g5s1d65g672c6641e25.oylfmxz.cn
+  port: 443
+  uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+  network: ws
+  ws-opts:
+    path: ''
+    headers:
+      Host: ''
+- name: 🇹🇼 中国台湾 (Taiwan) 11 - xiaobo
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -128,7 +166,27 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇹🇼 中国台湾 (Taiwan) 10 - xiaobo
+- name: 🇹🇼 中国台湾 (Taiwan) 12 - xiaobo
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 13 - xiaobo
+  type: vmess
+  server: 165.154.195.38
+  port: 35034
+  uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇹🇼 中国台湾 (Taiwan) 14 - xiaobo
   type: vmess
   server: 165.154.195.38
   port: 35034
@@ -153,6 +211,10 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 08 - xiaobo
   - 🇹🇼 中国台湾 (Taiwan) 09 - xiaobo
   - 🇹🇼 中国台湾 (Taiwan) 10 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 11 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 12 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 13 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 14 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -168,5 +230,9 @@ proxy-groups:
   - 🇹🇼 中国台湾 (Taiwan) 08 - xiaobo
   - 🇹🇼 中国台湾 (Taiwan) 09 - xiaobo
   - 🇹🇼 中国台湾 (Taiwan) 10 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 11 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 12 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 13 - xiaobo
+  - 🇹🇼 中国台湾 (Taiwan) 14 - xiaobo
 rules:
 - MATCH,PROXIES
