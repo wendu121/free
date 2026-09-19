@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaobo"
+        "🇶🇦 QA 01 - xiaobo",
+        "🇶🇦 QA 02 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇦 加拿大 (Canada) 01 (家宽) - xiaobo"
+        "🇶🇦 QA 01 - xiaobo",
+        "🇶🇦 QA 02 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },

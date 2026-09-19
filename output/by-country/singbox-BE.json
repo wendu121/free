@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇪 BE 01 - xiaobo",
+        "🇧🇪 BE 02 - xiaobo",
+        "🇧🇪 BE 03 - xiaobo",
+        "🇧🇪 BE 04 - xiaobo",
+        "🇧🇪 BE 05 - xiaobo",
+        "🇧🇪 BE 06 - xiaobo",
+        "🇧🇪 BE 07 - xiaobo",
+        "🇧🇪 BE 08 - xiaobo"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇪 BE 01 - xiaobo",
+        "🇧🇪 BE 02 - xiaobo",
+        "🇧🇪 BE 03 - xiaobo",
+        "🇧🇪 BE 04 - xiaobo",
+        "🇧🇪 BE 05 - xiaobo",
+        "🇧🇪 BE 06 - xiaobo",
+        "🇧🇪 BE 07 - xiaobo",
+        "🇧🇪 BE 08 - xiaobo"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
