@@ -6,34 +6,6 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaobo
   type: vless
-  server: 212.104.128.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 02 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 03 - xiaobo
-  type: vless
   server: 212.104.128.152
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
@@ -43,10 +15,24 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 04 - xiaobo
+- name: 🇫🇮 FI 02 - xiaobo
+  type: vless
+  server: 151.101.56.6
+  port: 443
+  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
+- name: 🇫🇮 FI 03 - xiaobo
   type: vless
   server: 212.104.128.27
   port: 443
@@ -60,70 +46,7 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 05 - xiaobo
-  type: vless
-  server: 172.64.53.87
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: ?ed=2560
-    headers:
-      Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 06 - xiaobo
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 07 - xiaobo
-  type: ss
-  server: 82.47.186.18
-  port: 19290
-  cipher: aes-128-gcm
-  password: o2rw2hICwu1blrr_gZAl2Q
-  udp: true
-- name: 🇫🇮 FI 08 - xiaobo
-  type: vless
-  server: 212.104.128.217
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 09 - xiaobo
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 10 - xiaobo
+- name: 🇫🇮 FI 04 - xiaobo
   type: vless
   server: 212.104.128.106
   port: 443
@@ -137,6 +60,41 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 05 - xiaobo
+  type: vless
+  server: 212.104.128.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 06 - xiaobo
+  type: ss
+  server: 82.47.186.18
+  port: 19290
+  cipher: aes-128-gcm
+  password: o2rw2hICwu1blrr_gZAl2Q
+  udp: true
+- name: 🇫🇮 FI 07 - xiaobo
+  type: vless
+  server: k2.cloud--vpn.site
+  port: 443
+  uuid: 029fc301-ac31-4aae-9fd8-5d0bff6ec5c0
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -149,9 +107,6 @@ proxy-groups:
   - 🇫🇮 FI 05 - xiaobo
   - 🇫🇮 FI 06 - xiaobo
   - 🇫🇮 FI 07 - xiaobo
-  - 🇫🇮 FI 08 - xiaobo
-  - 🇫🇮 FI 09 - xiaobo
-  - 🇫🇮 FI 10 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -164,8 +119,5 @@ proxy-groups:
   - 🇫🇮 FI 05 - xiaobo
   - 🇫🇮 FI 06 - xiaobo
   - 🇫🇮 FI 07 - xiaobo
-  - 🇫🇮 FI 08 - xiaobo
-  - 🇫🇮 FI 09 - xiaobo
-  - 🇫🇮 FI 10 - xiaobo
 rules:
 - MATCH,PROXIES

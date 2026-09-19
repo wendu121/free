@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - xiaobo"
+        "🇮🇪 IE 01 - xiaobo",
+        "🇮🇪 IE 02 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaobo"
+        "🇮🇪 IE 01 - xiaobo",
+        "🇮🇪 IE 02 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
