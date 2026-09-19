@@ -6,28 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇪 BE 01 - xiaobo",
-        "🇧🇪 BE 02 - xiaobo",
-        "🇧🇪 BE 03 - xiaobo",
-        "🇧🇪 BE 04 - xiaobo",
-        "🇧🇪 BE 05 - xiaobo",
-        "🇧🇪 BE 06 - xiaobo",
-        "🇧🇪 BE 07 - xiaobo",
-        "🇧🇪 BE 08 - xiaobo"
+        "🇧🇪 BE 01 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇪 BE 01 - xiaobo",
-        "🇧🇪 BE 02 - xiaobo",
-        "🇧🇪 BE 03 - xiaobo",
-        "🇧🇪 BE 04 - xiaobo",
-        "🇧🇪 BE 05 - xiaobo",
-        "🇧🇪 BE 06 - xiaobo",
-        "🇧🇪 BE 07 - xiaobo",
-        "🇧🇪 BE 08 - xiaobo"
+        "🇧🇪 BE 01 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
