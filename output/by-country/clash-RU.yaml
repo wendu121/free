@@ -20,20 +20,6 @@ proxies:
       Host: cf3.rumedia-cdn.com
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: vless
-  server: 64.225.110.247
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /acg/buy/ajax
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  type: vless
   server: 46.8.200.91
   port: 443
   uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
@@ -46,34 +32,6 @@ proxies:
     path: /casc
     headers:
       Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  type: vless
-  server: 64.227.67.161
-  port: 2083
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /members/detail/gif
-    headers:
-      Host: cdn8848.776676.xyz
-- name: 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
-  type: vless
-  server: 188.130.207.30
-  port: 2053
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cdn8848.776676.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cdn8848.776676.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,9 +39,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -91,8 +46,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 05 - xiaobo
 rules:
 - MATCH,PROXIES

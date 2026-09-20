@@ -6,20 +6,21 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - xiaobo
   type: vless
-  server: 188.114.97.6
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 188.114.97.7
+  port: 443
+  uuid: ba49d874-fe02-465d-82d3-ed981dc7694f
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: zb1zi.s3nx.dyz.hh.vavava.kdns.fr
+      Host: o94yv7lif0-anxisd9efehvvs7mxn6bh.z-ule-ika-d-e-ne-k-e.workers.dev
 - name: 🇨🇿 CZ 02 - xiaobo
   type: vless
-  server: 195.85.23.111
+  server: 195.85.23.88
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -33,71 +34,32 @@ proxies:
       Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 03 - xiaobo
   type: vless
-  server: 162.159.0.169
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 195.85.23.45
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /proxyip=us.xiabibi.cf
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: nb.lovecf.ggff.net
 - name: 🇨🇿 CZ 04 - xiaobo
   type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  server: 172.64.153.235
+  port: 8443
+  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
+  servername: socks5.revil-time3.workers.dev
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /socks5://128.140.46.169:13482
     headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 05 - xiaobo
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tlssecurity=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇨🇿 CZ 06 - xiaobo
-  type: vless
-  server: 195.85.23.219
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 07 - xiaobo
-  type: vless
-  server: 162.159.45.19
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: socks5.revil-time3.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -107,9 +69,6 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xiaobo
   - 🇨🇿 CZ 03 - xiaobo
   - 🇨🇿 CZ 04 - xiaobo
-  - 🇨🇿 CZ 05 - xiaobo
-  - 🇨🇿 CZ 06 - xiaobo
-  - 🇨🇿 CZ 07 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -119,8 +78,5 @@ proxy-groups:
   - 🇨🇿 CZ 02 - xiaobo
   - 🇨🇿 CZ 03 - xiaobo
   - 🇨🇿 CZ 04 - xiaobo
-  - 🇨🇿 CZ 05 - xiaobo
-  - 🇨🇿 CZ 06 - xiaobo
-  - 🇨🇿 CZ 07 - xiaobo
 rules:
 - MATCH,PROXIES
