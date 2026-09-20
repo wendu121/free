@@ -6,18 +6,6 @@ log-level: info
 proxies:
 - name: 🇦🇺 澳大利亚 (Australia) 01 - xiaobo
   type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-  servername: www.cloudflare.com
-  client-fingerprint: qq
-- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaobo
-  type: vless
   server: 103.75.119.126
   port: 2087
   uuid: 731f177e-00aa-480c-b935-661456139a32
@@ -29,43 +17,7 @@ proxies:
     path: /7586c69d3dc9
     headers:
       Host: 103.75.119.126
-- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaobo
-  type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaobo
-  type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-- name: 🇦🇺 澳大利亚 (Australia) 05 - xiaobo
-  type: vless
-  server: 34.87.244.111
-  port: 443
-  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇦🇺 澳大利亚 (Australia) 06 - xiaobo
+- name: 🇦🇺 澳大利亚 (Australia) 02 - xiaobo
   type: vless
   server: 34.87.229.148
   port: 443
@@ -77,7 +29,81 @@ proxies:
     public-key: OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 03 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 04 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: qq
+- name: 🇦🇺 澳大利亚 (Australia) 05 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇦🇺 澳大利亚 (Australia) 06 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇦🇺 澳大利亚 (Australia) 07 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: safari
+- name: 🇦🇺 澳大利亚 (Australia) 08 - xiaobo
+  type: vless
+  server: 64.225.65.116
+  port: 8443
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaobo
   type: vless
   server: 103.75.119.126
   port: 2087
@@ -90,7 +116,7 @@ proxies:
     path: /7586c69d3dc9
     headers:
       Host: 103.75.119.126
-- name: 🇦🇺 澳大利亚 (Australia) 08 - xiaobo
+- name: 🇦🇺 澳大利亚 (Australia) 10 - xiaobo
   type: vless
   server: 34.87.244.111
   port: 443
@@ -101,8 +127,8 @@ proxies:
   reality-opts:
     public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇦🇺 澳大利亚 (Australia) 09 - xiaobo
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 11 - xiaobo
   type: vless
   server: 34.87.244.111
   port: 443
@@ -112,6 +138,42 @@ proxies:
   skip-cert-verify: true
   reality-opts:
     public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: ios
+- name: 🇦🇺 澳大利亚 (Australia) 12 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇦🇺 澳大利亚 (Australia) 13 - xiaobo
+  type: vless
+  server: 34.87.244.111
+  port: 443
+  uuid: 325bc1be-0cb7-4cf7-bd35-a79ded91bbbd
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: fsdIMU2apN1C_NbkL7mHTsBKEfhwbDhgCRcB8ICf03E
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇦🇺 澳大利亚 (Australia) 14 - xiaobo
+  type: vless
+  server: 34.87.229.148
+  port: 443
+  uuid: 4f865f35-cf47-4e7f-a7e6-8882511a1b36
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: OgTkmAQdLjipA9oLloxbU5BAX3hPjzbvkEGHF4aZ8z4
   servername: www.cloudflare.com
   client-fingerprint: chrome
 proxy-groups:
@@ -128,6 +190,11 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaobo
   - 🇦🇺 澳大利亚 (Australia) 08 - xiaobo
   - 🇦🇺 澳大利亚 (Australia) 09 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 10 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 11 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 12 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 13 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 14 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -142,5 +209,10 @@ proxy-groups:
   - 🇦🇺 澳大利亚 (Australia) 07 - xiaobo
   - 🇦🇺 澳大利亚 (Australia) 08 - xiaobo
   - 🇦🇺 澳大利亚 (Australia) 09 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 10 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 11 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 12 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 13 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 14 - xiaobo
 rules:
 - MATCH,PROXIES
