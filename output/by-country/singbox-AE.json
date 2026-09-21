@@ -6,14 +6,38 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - xiaobo"
+        "🇦🇪 阿联酋 (UAE) 01 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 03 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 05 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 06 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 07 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 08 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 09 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 10 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 11 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 12 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 13 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - xiaobo"
+        "🇦🇪 阿联酋 (UAE) 01 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 02 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 03 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 04 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 05 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 06 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 07 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 08 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 09 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 10 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 11 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 12 - xiaobo",
+        "🇦🇪 阿联酋 (UAE) 13 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
