@@ -4,20 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇲🇾 MY 01 - xiaobo
-  type: vmess
-  server: 47.250.135.244
-  port: 10000
-  uuid: aedc66b8-99d7-4a21-8310-61870e7f870d
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇲🇾 MY 02 - xiaobo
+- name: 🇧🇷 BR 01 - xiaobo
   type: vless
-  server: 160.30.54.63
-  port: 443
+  server: 164.92.137.46
+  port: 2083
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
@@ -25,7 +15,21 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /
+    path: '%2Fbt%2Fstreaming%2Fad%3Fed%3D2560'
+    headers:
+      Host: cdn8848.776676.xyz
+- name: 🇧🇷 BR 02 - xiaobo
+  type: vless
+  server: 109.107.155.76
+  port: 2053
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cdn8848.776676.xyz
+  network: ws
+  ws-opts:
+    path: /tv/member/auth?ed=2560fp=chrome
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -33,14 +37,14 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇲🇾 MY 01 - xiaobo
-  - 🇲🇾 MY 02 - xiaobo
+  - 🇧🇷 BR 01 - xiaobo
+  - 🇧🇷 BR 02 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇲🇾 MY 01 - xiaobo
-  - 🇲🇾 MY 02 - xiaobo
+  - 🇧🇷 BR 01 - xiaobo
+  - 🇧🇷 BR 02 - xiaobo
 rules:
 - MATCH,PROXIES
