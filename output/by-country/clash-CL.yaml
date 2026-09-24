@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇰 LK 01 - xiaobo
+- name: 🇨🇱 CL 01 - xiaobo
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: platform108.golnamakcert.top
   port: 80
-  uuid: 684f9a2e-4f96-497f-bfd9-ff1e34637952
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /platform108
     headers:
-      Host: free.sahanwickramasinghe.me
+      Host: platform108.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇰 LK 01 - xiaobo
+  - 🇨🇱 CL 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇰 LK 01 - xiaobo
+  - 🇨🇱 CL 01 - xiaobo
 rules:
 - MATCH,PROXIES
