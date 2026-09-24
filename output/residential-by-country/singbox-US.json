@@ -6,22 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaobo",
-        "🇨🇾 CY 02 - xiaobo",
-        "🇨🇾 CY 03 - xiaobo",
-        "🇨🇾 CY 04 - xiaobo",
-        "🇨🇾 CY 05 - xiaobo"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaobo",
-        "🇨🇾 CY 02 - xiaobo",
-        "🇨🇾 CY 03 - xiaobo",
-        "🇨🇾 CY 04 - xiaobo",
-        "🇨🇾 CY 05 - xiaobo"
+        "🇺🇸 美国 (United States) 01 (家宽) - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
