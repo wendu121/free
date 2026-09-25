@@ -4,31 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇻🇳 VN 01 - xiaobo
+- name: 🇦🇺 澳大利亚 (Australia) 01 - xiaobo
   type: vless
-  server: 160.187.1.101
+  server: 172.105.169.70
   port: 443
-  uuid: c92e12ca-ea66-4785-8675-652b35134117
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: thus-k.netnode.cc.cd
-  network: ws
-  ws-opts:
-    path: /t.me/daily_free_vpn
-    headers:
-      Host: thus-k.netnode.cc.cd
+  servername: 172.105.169.70
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇻🇳 VN 01 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇻🇳 VN 01 - xiaobo
+  - 🇦🇺 澳大利亚 (Australia) 01 - xiaobo
 rules:
 - MATCH,PROXIES
