@@ -25,6 +25,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: C8QhmBLJzhKo2JHR
   udp: true
+- name: 🇮🇪 IE 04 - xiaobo
+  type: ss
+  server: 20.234.96.89
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: C8QhmBLJzhKo2JHR
+  udp: true
+- name: 🇮🇪 IE 05 - xiaobo
+  type: ss
+  server: 20.234.96.89
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: C8QhmBLJzhKo2JHR
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -33,6 +47,8 @@ proxy-groups:
   - 🇮🇪 IE 01 - xiaobo
   - 🇮🇪 IE 02 - xiaobo
   - 🇮🇪 IE 03 - xiaobo
+  - 🇮🇪 IE 04 - xiaobo
+  - 🇮🇪 IE 05 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -41,5 +57,7 @@ proxy-groups:
   - 🇮🇪 IE 01 - xiaobo
   - 🇮🇪 IE 02 - xiaobo
   - 🇮🇪 IE 03 - xiaobo
+  - 🇮🇪 IE 04 - xiaobo
+  - 🇮🇪 IE 05 - xiaobo
 rules:
 - MATCH,PROXIES
