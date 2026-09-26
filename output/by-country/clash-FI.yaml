@@ -6,89 +6,6 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - xiaobo
   type: vless
-  server: a2.arshia-nova.ir
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 02 - xiaobo
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 03 - xiaobo
-  type: vless
-  server: fi.snobvpn.online
-  port: 80
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /snob-ws
-    headers:
-      Host: fi.snobvpn.online
-- name: 🇫🇮 FI 04 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 05 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--BYA---@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud@CoonfigCloud---@CoonfigCloud
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 06 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 07 - xiaobo
-  type: vless
   server: me1.movieseryalirani.ir
   port: 443
   uuid: 63aaea7f-2847-4f41-afab-0836b1cf79d9
@@ -99,35 +16,7 @@ proxies:
     public-key: CxRZ7oJWwR7okmOoqEEbVYCSfTaBlNA6ycf_UniyeEk
   servername: matrix-client.matrix.org
   client-fingerprint: firefox
-- name: 🇫🇮 FI 08 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 09 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--BYA--CHANEL---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr--@vpnserverrr---@vpnserverrr---@vpnserverrr---@vpnserverrr
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 10 - xiaobo
+- name: 🇫🇮 FI 02 - xiaobo
   type: vmess
   server: me6.movieseryalirani.ir
   port: 57361
@@ -137,20 +26,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇫🇮 FI 11 - xiaobo
-  type: vless
-  server: 151.101.56.6
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: c12.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -158,15 +33,6 @@ proxy-groups:
   - AUTO
   - 🇫🇮 FI 01 - xiaobo
   - 🇫🇮 FI 02 - xiaobo
-  - 🇫🇮 FI 03 - xiaobo
-  - 🇫🇮 FI 04 - xiaobo
-  - 🇫🇮 FI 05 - xiaobo
-  - 🇫🇮 FI 06 - xiaobo
-  - 🇫🇮 FI 07 - xiaobo
-  - 🇫🇮 FI 08 - xiaobo
-  - 🇫🇮 FI 09 - xiaobo
-  - 🇫🇮 FI 10 - xiaobo
-  - 🇫🇮 FI 11 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -174,14 +40,5 @@ proxy-groups:
   proxies:
   - 🇫🇮 FI 01 - xiaobo
   - 🇫🇮 FI 02 - xiaobo
-  - 🇫🇮 FI 03 - xiaobo
-  - 🇫🇮 FI 04 - xiaobo
-  - 🇫🇮 FI 05 - xiaobo
-  - 🇫🇮 FI 06 - xiaobo
-  - 🇫🇮 FI 07 - xiaobo
-  - 🇫🇮 FI 08 - xiaobo
-  - 🇫🇮 FI 09 - xiaobo
-  - 🇫🇮 FI 10 - xiaobo
-  - 🇫🇮 FI 11 - xiaobo
 rules:
 - MATCH,PROXIES
