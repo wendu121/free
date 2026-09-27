@@ -6,22 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - xiaobo",
-        "🇮🇪 IE 02 - xiaobo",
-        "🇮🇪 IE 03 - xiaobo",
-        "🇮🇪 IE 04 - xiaobo",
-        "🇮🇪 IE 05 - xiaobo"
+        "🇺🇿 UZ 01 - xiaobo",
+        "🇺🇿 UZ 02 - xiaobo",
+        "🇺🇿 UZ 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - xiaobo",
-        "🇮🇪 IE 02 - xiaobo",
-        "🇮🇪 IE 03 - xiaobo",
-        "🇮🇪 IE 04 - xiaobo",
-        "🇮🇪 IE 05 - xiaobo"
+        "🇺🇿 UZ 01 - xiaobo",
+        "🇺🇿 UZ 02 - xiaobo",
+        "🇺🇿 UZ 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
