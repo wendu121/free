@@ -6,6 +6,18 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   type: vless
+  server: 185.229.9.157
+  port: 443
+  uuid: 9e4f675b-d6bf-42d1-be55-389f622783af
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: JBKJlzuJH1YzDHAoz28wEKbzWTGpDpKjgtSq0oT0a0k
+  servername: 360.yandex.ru
+  client-fingerprint: safari
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
+  type: vless
   server: fbsv6.guardora.pro
   port: 443
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
@@ -18,34 +30,6 @@ proxies:
     path: /ws
     headers:
       Host: fbsv6.guardora.pro
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  type: vless
-  server: 46.8.200.91
-  port: 443
-  uuid: b8201bab-fa6c-4f6e-b289-b5da660c6f69
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf3.rumedia-cdn.com
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-    headers:
-      Host: cf3.rumedia-cdn.com
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  type: ss
-  server: 139.100.236.74
-  port: 3
-  cipher: chacha20-ietf-poly1305
-  password: WxYpOK1iPSJySbVNMMJDtw
-  udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  type: ss
-  server: 188.225.78.31
-  port: 2053
-  cipher: 2022-blake3-aes-256-gcm
-  password: g4h/AcJh1+jg9+yonlMK4Wq7fhbFY3NkcOzUVlZ9GjU=
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -53,8 +37,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -62,7 +44,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 rules:
 - MATCH,PROXIES
