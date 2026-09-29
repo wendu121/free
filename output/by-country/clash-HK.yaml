@@ -6,20 +6,20 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
   type: vmess
-  server: 47.76.44.32
+  server: 194.99.79.26
   port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
+  servername: aksai.org
   network: ws
   ws-opts:
-    path: /ws-vmess
+    path: /linkvws
     headers:
-      Host: 93ucrn4i0pffuabk.v.3dns.vip
+      Host: aksai.org
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
   type: vless
   server: 103.71.23.247
@@ -35,20 +35,6 @@ proxies:
     headers:
       Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
-  type: vless
-  server: 85.149.211.28
-  port: 8443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hk.152568.xyz
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
   type: vmess
   server: 47.76.44.32
   port: 443
@@ -64,39 +50,21 @@ proxies:
     path: /ws-vmess
     headers:
       Host: 93ucrn4i0PffUAbk.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
+  type: vless
+  server: 207.57.135.199
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
-  type: vmess
-  server: aksai.org
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
-  type: vmess
-  server: 194.99.79.26
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
   type: vless
   server: 103.71.23.247
   port: 443
@@ -110,22 +78,34 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
-  type: vmess
-  server: 194.99.79.26
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
+  type: vless
+  server: 85.149.211.28
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aksai.org
+  servername: hk.152568.xyz
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /cdn/packages/runtime-core.tar.gz
     headers:
-      Host: aksai.org
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
+  type: vless
+  server: 85.149.211.28
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -138,7 +118,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,6 +130,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
 rules:
 - MATCH,PROXIES
