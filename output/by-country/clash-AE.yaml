@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaobo
   type: vless
-  server: 84.235.244.108
+  server: uae.unixzone.us
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -19,151 +19,19 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 02 - xiaobo
   type: vless
-  server: 103.71.23.247
-  port: 443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  server: 185.112.249.201
+  port: 8443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: hk.152568.xyz
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
+    path: /
     headers:
-      Host: hk.152568.xyz
+      Host: edgetunnel-4uw.pages.dev
 - name: 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - xiaobo
-  type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 06 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 07 - xiaobo
-  type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  type: vless
-  server: 185.112.249.201
-  port: 8443
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  type: vless
-  server: 185.112.249.201
-  port: 2053
-  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edgetunnel-4uw.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: edgetunnel-4uw.pages.dev
-- name: 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 11 - xiaobo
-  type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 12 - xiaobo
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
-- name: 🇦🇪 阿联酋 (UAE) 13 - xiaobo
   type: vless
   server: 185.112.249.201
   port: 2053
@@ -185,16 +53,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 02 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 06 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 12 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 13 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -203,15 +61,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 02 - xiaobo
   - 🇦🇪 阿联酋 (UAE) 03 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 04 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 05 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 06 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 07 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 08 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 09 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 10 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 11 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 12 - xiaobo
-  - 🇦🇪 阿联酋 (UAE) 13 - xiaobo
 rules:
 - MATCH,PROXIES
