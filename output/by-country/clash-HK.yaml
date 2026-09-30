@@ -6,8 +6,8 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
   type: vless
-  server: 45.82.244.40
-  port: 443
+  server: 85.149.211.28
+  port: 8443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
@@ -20,7 +20,7 @@ proxies:
       Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
   type: vless
-  server: 74.82.192.82
+  server: 45.82.244.40
   port: 443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
@@ -34,39 +34,24 @@ proxies:
       Host: hk.152568.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: ''
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
-  type: vmess
-  server: 194.99.79.26
+  server: 8.218.195.61
   port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: ex1ogt73nzpqkac2.v.3dns.vip
   network: ws
   ws-opts:
-    path: /linkvws
+    path: /ws-vmess
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
+      Host: ex1ogt73nzpqkac2.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - xiaobo
   type: vless
-  server: 103.71.23.247
-  port: 443
+  server: 207.57.135.199
+  port: 8443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
@@ -77,7 +62,7 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -93,51 +78,7 @@ proxies:
     path: /linkvws
     headers:
       Host: aksai.org
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  type: vmess
-  server: 47.243.153.153
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: I2PSm3Knof5qjjix.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: I2PSm3Knof5qjjix.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - xiaobo
-  type: vless
-  server: 162.159.38.127
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
   type: vless
   server: 5.223.51.84
   port: 443
@@ -151,48 +92,7 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - xiaobo
-  type: vless
-  server: 172.64.154.8
-  port: 2095
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - xiaobo
-  type: vless
-  server: 162.159.0.169
-  port: 2082
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - xiaobo
-  type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - xiaobo
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -220,13 +120,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 09 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 14 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -239,12 +132,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 05 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 06 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 07 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 08 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 09 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 10 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 11 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 12 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 13 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 14 - xiaobo
 rules:
 - MATCH,PROXIES
