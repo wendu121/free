@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇧🇾 BY 01 - xiaobo",
+        "🇧🇾 BY 02 - xiaobo",
+        "🇧🇾 BY 03 - xiaobo",
+        "🇧🇾 BY 04 - xiaobo",
+        "🇧🇾 BY 05 - xiaobo",
+        "🇧🇾 BY 06 - xiaobo"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇧🇾 BY 01 - xiaobo",
+        "🇧🇾 BY 02 - xiaobo",
+        "🇧🇾 BY 03 - xiaobo",
+        "🇧🇾 BY 04 - xiaobo",
+        "🇧🇾 BY 05 - xiaobo",
+        "🇧🇾 BY 06 - xiaobo"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
