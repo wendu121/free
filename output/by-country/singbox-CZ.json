@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇴 CO 01 - xiaobo"
+        "🇨🇿 CZ 01 - xiaobo",
+        "🇨🇿 CZ 02 - xiaobo",
+        "🇨🇿 CZ 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇴 CO 01 - xiaobo"
+        "🇨🇿 CZ 01 - xiaobo",
+        "🇨🇿 CZ 02 - xiaobo",
+        "🇨🇿 CZ 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
