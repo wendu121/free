@@ -32,19 +32,6 @@ proxies:
       Host: platform107.halalkhor.info
 - name: 🇨🇱 CL 03 - xiaobo
   type: vless
-  server: platform102.golnamakcert.top
-  port: 80
-  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /platform102
-    headers:
-      Host: platform102.halalkhor.info
-- name: 🇨🇱 CL 04 - xiaobo
-  type: vless
   server: platform106.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
@@ -56,7 +43,7 @@ proxies:
     path: /platform106
     headers:
       Host: platform106.halalkhor.info
-- name: 🇨🇱 CL 05 - xiaobo
+- name: 🇨🇱 CL 04 - xiaobo
   type: vless
   server: platform109.golnamakcert.top
   port: 80
@@ -69,7 +56,27 @@ proxies:
     path: /platform109
     headers:
       Host: platform109.halalkhor.info
+- name: 🇨🇱 CL 05 - xiaobo
+  type: ss
+  server: 64.176.2.21
+  port: 8388
+  cipher: aes-256-gcm
+  password: xBStBEVqvGwHPocc
+  udp: true
 - name: 🇨🇱 CL 06 - xiaobo
+  type: vless
+  server: platform102.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform102
+    headers:
+      Host: platform102.halalkhor.info
+- name: 🇨🇱 CL 07 - xiaobo
   type: vless
   server: platform103.golnamakcert.top
   port: 80
@@ -93,6 +100,7 @@ proxy-groups:
   - 🇨🇱 CL 04 - xiaobo
   - 🇨🇱 CL 05 - xiaobo
   - 🇨🇱 CL 06 - xiaobo
+  - 🇨🇱 CL 07 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -104,5 +112,6 @@ proxy-groups:
   - 🇨🇱 CL 04 - xiaobo
   - 🇨🇱 CL 05 - xiaobo
   - 🇨🇱 CL 06 - xiaobo
+  - 🇨🇱 CL 07 - xiaobo
 rules:
 - MATCH,PROXIES
