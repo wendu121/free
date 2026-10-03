@@ -6,20 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇰 LK 01 - xiaobo",
-        "🇱🇰 LK 02 - xiaobo",
-        "🇱🇰 LK 03 - xiaobo",
-        "🇱🇰 LK 04 - xiaobo"
+        "🇬🇪 GE 01 - xiaobo",
+        "🇬🇪 GE 02 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇰 LK 01 - xiaobo",
-        "🇱🇰 LK 02 - xiaobo",
-        "🇱🇰 LK 03 - xiaobo",
-        "🇱🇰 LK 04 - xiaobo"
+        "🇬🇪 GE 01 - xiaobo",
+        "🇬🇪 GE 02 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
