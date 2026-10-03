@@ -5,22 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
-  type: vless
-  server: 104.21.15.145
-  port: 2053
-  uuid: dc1e9f00-c064-4870-9bfc-463db50257d7
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: mhXYDvaSfHzHZXBswC/zo/o8VqdU3XSBpwWx050Y6MU=
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: RESTlESs-MoON-dD68RidaM-tOo-In-MAmLEkat.hGtghFF67tdFHUt3.WORkerS.DEV
-  network: ws
-  ws-opts:
-    path: /eyJqdW5rIjoicVkwaG9XUUQyUDhzRkZ5UiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
-    headers:
-      Host: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: vless
-  server: fbsv6.guardora.pro
+  server: 81.94.148.214
   port: 443
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   udp: true
@@ -34,21 +27,7 @@ proxies:
       Host: fbsv6.guardora.pro
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
   type: vless
-  server: 66.81.247.155
-  port: 2083
-  uuid: 6cc29a05-4828-4e48-a34a-20b7ada60e85
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: testmikonim.hydrymhmdamyn7.workers.dev
-  network: ws
-  ws-opts:
-    path: /OAZko425kNFF0PpQ
-    headers:
-      Host: testmikonim.hydrymhmdamyn7.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  type: vless
-  server: 81.94.148.214
+  server: 217.19.122.200
   port: 443
   uuid: bc5ec86c-3e65-4272-994c-59a924c72a68
   udp: true
@@ -68,7 +47,6 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -77,6 +55,5 @@ proxy-groups:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 rules:
 - MATCH,PROXIES
