@@ -32,6 +32,34 @@ proxies:
     path: /
     headers:
       Host: trackydev.site
+- name: 🇱🇰 LK 03 - xiaobo
+  type: vless
+  server: trackydev.site
+  port: 443
+  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trackydev.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: trackydev.site
+- name: 🇱🇰 LK 04 - xiaobo
+  type: vless
+  server: trackydev.site
+  port: 443
+  uuid: 92d67828-4c56-4795-af5a-f387651380dc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trackydev.site
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: trackydev.site
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +67,8 @@ proxy-groups:
   - AUTO
   - 🇱🇰 LK 01 - xiaobo
   - 🇱🇰 LK 02 - xiaobo
+  - 🇱🇰 LK 03 - xiaobo
+  - 🇱🇰 LK 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +76,7 @@ proxy-groups:
   proxies:
   - 🇱🇰 LK 01 - xiaobo
   - 🇱🇰 LK 02 - xiaobo
+  - 🇱🇰 LK 03 - xiaobo
+  - 🇱🇰 LK 04 - xiaobo
 rules:
 - MATCH,PROXIES
