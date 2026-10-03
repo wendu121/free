@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaobo"
+        "🇮🇪 IE 01 - xiaobo",
+        "🇮🇪 IE 02 - xiaobo",
+        "🇮🇪 IE 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - xiaobo"
+        "🇮🇪 IE 01 - xiaobo",
+        "🇮🇪 IE 02 - xiaobo",
+        "🇮🇪 IE 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
