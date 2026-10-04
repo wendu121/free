@@ -5,13 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaobo
-  type: ss
-  server: 43.201.103.218
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 02 - xiaobo
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -25,7 +18,17 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: None
+      Host: ''
+- name: 🇰🇷 韩国 (South Korea) 02 - xiaobo
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 03 - xiaobo
   type: vmess
   server: 140.238.2.250
@@ -47,17 +50,12 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 05 - xiaobo
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 06 - xiaobo
   type: vless
   server: 151.245.106.49
@@ -69,14 +67,19 @@ proxies:
   reality-opts:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇰🇷 韩国 (South Korea) 07 - xiaobo
-  type: ss
-  server: 43.201.103.218
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  type: vless
+  server: 34.47.78.159
+  port: 443
+  uuid: cb2abff3-5fe6-4b5a-aa19-5739deb285b6
   udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: M0QKczb2MzOH45qDViIAbb9LPrVVyCp880D4HlwIKnA
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 08 - xiaobo
   type: vmess
   server: 140.238.2.250
@@ -88,6 +91,42 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  type: ss
+  server: 43.201.103.218
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 13 - xiaobo
   type: vmess
   server: 132.145.80.230
   port: 80
@@ -101,7 +140,7 @@ proxies:
   ws-opts:
     path: /cctv13.m3u8
     headers:
-      Host: ''
+      Host: None
 proxy-groups:
 - name: PROXIES
   type: select
@@ -116,6 +155,10 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaobo
   - 🇰🇷 韩国 (South Korea) 08 - xiaobo
   - 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 13 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -130,5 +173,9 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - xiaobo
   - 🇰🇷 韩国 (South Korea) 08 - xiaobo
   - 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 10 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 11 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 13 - xiaobo
 rules:
 - MATCH,PROXIES
