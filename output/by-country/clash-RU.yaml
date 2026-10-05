@@ -6,20 +6,6 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   type: vless
-  server: 104.18.34.21
-  port: 8443
-  uuid: 656bb400-3b7a-47e3-94b0-0362f3865072
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: socks5.revil-time3.workers.dev
-  network: ws
-  ws-opts:
-    path: /socks5://128.140.46.169:13482
-    headers:
-      Host: socks5.revil-time3.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  type: vless
   server: 84.38.183.237
   port: 443
   uuid: 9737cc16-7266-45ce-94d9-6e05a45e0b9c
@@ -32,27 +18,13 @@ proxies:
     path: /vless#/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: 84.38.183.237
-- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
   password: mhXYDvaSfHzHZXBswC/zo/o8VqdU3XSBpwWx050Y6MU=
   udp: true
-- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
-  type: vless
-  server: 104.21.64.250
-  port: 2053
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: index.arcane509.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -60,8 +32,6 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -69,7 +39,5 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
-  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 rules:
 - MATCH,PROXIES
