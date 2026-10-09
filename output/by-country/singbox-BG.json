@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇬 BG 01 - xiaobo"
+        "🇧🇬 BG 01 - xiaobo",
+        "🇧🇬 BG 02 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇬 BG 01 - xiaobo"
+        "🇧🇬 BG 01 - xiaobo",
+        "🇧🇬 BG 02 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
