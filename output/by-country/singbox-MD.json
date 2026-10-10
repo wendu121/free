@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇲🇩 MD 01 - xiaobo",
+        "🇲🇩 MD 02 - xiaobo",
+        "🇲🇩 MD 03 - xiaobo",
+        "🇲🇩 MD 04 - xiaobo",
+        "🇲🇩 MD 05 - xiaobo",
+        "🇲🇩 MD 06 - xiaobo",
+        "🇲🇩 MD 07 - xiaobo",
+        "🇲🇩 MD 08 - xiaobo",
+        "🇲🇩 MD 09 - xiaobo",
+        "🇲🇩 MD 10 - xiaobo",
+        "🇲🇩 MD 11 - xiaobo",
+        "🇲🇩 MD 12 - xiaobo",
+        "🇲🇩 MD 13 - xiaobo",
+        "🇲🇩 MD 14 - xiaobo",
+        "🇲🇩 MD 15 - xiaobo",
+        "🇲🇩 MD 16 - xiaobo",
+        "🇲🇩 MD 17 - xiaobo"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇲🇩 MD 01 - xiaobo",
+        "🇲🇩 MD 02 - xiaobo",
+        "🇲🇩 MD 03 - xiaobo",
+        "🇲🇩 MD 04 - xiaobo",
+        "🇲🇩 MD 05 - xiaobo",
+        "🇲🇩 MD 06 - xiaobo",
+        "🇲🇩 MD 07 - xiaobo",
+        "🇲🇩 MD 08 - xiaobo",
+        "🇲🇩 MD 09 - xiaobo",
+        "🇲🇩 MD 10 - xiaobo",
+        "🇲🇩 MD 11 - xiaobo",
+        "🇲🇩 MD 12 - xiaobo",
+        "🇲🇩 MD 13 - xiaobo",
+        "🇲🇩 MD 14 - xiaobo",
+        "🇲🇩 MD 15 - xiaobo",
+        "🇲🇩 MD 16 - xiaobo",
+        "🇲🇩 MD 17 - xiaobo"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
