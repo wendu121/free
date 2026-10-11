@@ -6,20 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - xiaobo",
-        "🇨🇭 CH 02 - xiaobo",
-        "🇨🇭 CH 03 - xiaobo",
-        "🇨🇭 CH 04 - xiaobo"
+        "🇨🇭 CH 01 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - xiaobo",
-        "🇨🇭 CH 02 - xiaobo",
-        "🇨🇭 CH 03 - xiaobo",
-        "🇨🇭 CH 04 - xiaobo"
+        "🇨🇭 CH 01 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
