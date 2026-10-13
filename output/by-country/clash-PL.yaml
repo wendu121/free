@@ -6,14 +6,145 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaobo
   type: vless
-  server: 2.26.225.89
-  port: 8443
-  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
 - name: 🇵🇱 PL 02 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 03 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 04 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboranfp=chrome
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 05 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 06 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 07 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 08 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 09 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---mehrosaboran
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 10 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 11 - xiaobo
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -22,6 +153,43 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 12 - xiaobo
+  type: vless
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: pl.flen-vpn.xyz
+- name: 🇵🇱 PL 13 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇵🇱 PL 14 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
@@ -29,6 +197,18 @@ proxy-groups:
   - AUTO
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
+  - 🇵🇱 PL 03 - xiaobo
+  - 🇵🇱 PL 04 - xiaobo
+  - 🇵🇱 PL 05 - xiaobo
+  - 🇵🇱 PL 06 - xiaobo
+  - 🇵🇱 PL 07 - xiaobo
+  - 🇵🇱 PL 08 - xiaobo
+  - 🇵🇱 PL 09 - xiaobo
+  - 🇵🇱 PL 10 - xiaobo
+  - 🇵🇱 PL 11 - xiaobo
+  - 🇵🇱 PL 12 - xiaobo
+  - 🇵🇱 PL 13 - xiaobo
+  - 🇵🇱 PL 14 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -36,5 +216,17 @@ proxy-groups:
   proxies:
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
+  - 🇵🇱 PL 03 - xiaobo
+  - 🇵🇱 PL 04 - xiaobo
+  - 🇵🇱 PL 05 - xiaobo
+  - 🇵🇱 PL 06 - xiaobo
+  - 🇵🇱 PL 07 - xiaobo
+  - 🇵🇱 PL 08 - xiaobo
+  - 🇵🇱 PL 09 - xiaobo
+  - 🇵🇱 PL 10 - xiaobo
+  - 🇵🇱 PL 11 - xiaobo
+  - 🇵🇱 PL 12 - xiaobo
+  - 🇵🇱 PL 13 - xiaobo
+  - 🇵🇱 PL 14 - xiaobo
 rules:
 - MATCH,PROXIES
