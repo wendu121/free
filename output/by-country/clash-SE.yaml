@@ -5,55 +5,6 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇸🇪 SE 01 - xiaobo
-  type: ss
-  server: 70.34.212.124
-  port: 8388
-  cipher: aes-256-gcm
-  password: AxIYWtskJWIIaefW
-  udp: true
-- name: 🇸🇪 SE 02 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇪 SE 03 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇪 SE 04 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇸🇪 SE 05 - xiaobo
   type: vless
   server: 77.110.97.245
   port: 443
@@ -67,6 +18,13 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
+- name: 🇸🇪 SE 02 - xiaobo
+  type: ss
+  server: 70.34.212.124
+  port: 8388
+  cipher: aes-256-gcm
+  password: AxIYWtskJWIIaefW
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,9 +32,6 @@ proxy-groups:
   - AUTO
   - 🇸🇪 SE 01 - xiaobo
   - 🇸🇪 SE 02 - xiaobo
-  - 🇸🇪 SE 03 - xiaobo
-  - 🇸🇪 SE 04 - xiaobo
-  - 🇸🇪 SE 05 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -84,8 +39,5 @@ proxy-groups:
   proxies:
   - 🇸🇪 SE 01 - xiaobo
   - 🇸🇪 SE 02 - xiaobo
-  - 🇸🇪 SE 03 - xiaobo
-  - 🇸🇪 SE 04 - xiaobo
-  - 🇸🇪 SE 05 - xiaobo
 rules:
 - MATCH,PROXIES
