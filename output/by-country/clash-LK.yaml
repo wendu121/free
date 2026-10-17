@@ -7,43 +7,18 @@ proxies:
 - name: 🇱🇰 LK 01 - xiaobo
   type: vless
   server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
   network: ws
   ws-opts:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 02 - xiaobo
-  type: vless
-  server: support.zoom.us
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 03 - xiaobo
-  type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 04 - xiaobo
   type: vless
   server: centurylink.es
   port: 8443
@@ -57,9 +32,36 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 05 - xiaobo
+- name: 🇱🇰 LK 03 - xiaobo
+  type: vless
+  server: centurylink.es
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 04 - xiaobo
   type: vless
   server: support.zoom.us
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇱🇰 LK 05 - xiaobo
+  type: vless
+  server: free.sahanwickramasinghe.me
   port: 80
   uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   udp: true
@@ -86,20 +88,6 @@ proxies:
       Host: free.sahanwickramasinghe.me
 - name: 🇱🇰 LK 07 - xiaobo
   type: vless
-  server: centurylink.es
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: free.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 08 - xiaobo
-  type: vless
   server: support.zoom.us
   port: 80
   uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
@@ -111,9 +99,9 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
-- name: 🇱🇰 LK 09 - xiaobo
+- name: 🇱🇰 LK 08 - xiaobo
   type: vless
-  server: free.sahanwickramasinghe.me
+  server: support.zoom.us
   port: 80
   uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
   udp: true
@@ -137,7 +125,6 @@ proxy-groups:
   - 🇱🇰 LK 06 - xiaobo
   - 🇱🇰 LK 07 - xiaobo
   - 🇱🇰 LK 08 - xiaobo
-  - 🇱🇰 LK 09 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -151,6 +138,5 @@ proxy-groups:
   - 🇱🇰 LK 06 - xiaobo
   - 🇱🇰 LK 07 - xiaobo
   - 🇱🇰 LK 08 - xiaobo
-  - 🇱🇰 LK 09 - xiaobo
 rules:
 - MATCH,PROXIES
