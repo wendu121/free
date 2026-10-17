@@ -12,12 +12,19 @@ proxies:
   password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
   udp: true
 - name: 🇨🇿 CZ 02 - xiaobo
-  type: ss
-  server: 67.159.18.34
-  port: 17001
-  cipher: aes-256-gcm
-  password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
+  type: vless
+  server: cl-glb6e059ee.gcdn.co
+  port: 443
+  uuid: 6206cb76-491d-4237-baf1-8c29eea4eafb
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: node-3.wt419.site
+  network: ws
+  ws-opts:
+    path: /qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy
+    headers:
+      Host: node-3.wt419.site
 - name: 🇨🇿 CZ 03 - xiaobo
   type: vless
   server: cl-glb6e059ee.gcdn.co
@@ -32,20 +39,6 @@ proxies:
     path: /qVnRkTxmLwBzHjYpFaDgUcSeNrKxMtVbWqZhPcLsJfGy
     headers:
       Host: node-3.wt419.site
-- name: 🇨🇿 CZ 04 - xiaobo
-  type: vless
-  server: 81.90.31.111
-  port: 443
-  uuid: d78d6815-5f00-4fe3-8aae-3344aeb7783f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 1f0c1c7297521d51.wgse.info
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: 1f0c1c7297521d51.wgse.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -54,7 +47,6 @@ proxy-groups:
   - 🇨🇿 CZ 01 - xiaobo
   - 🇨🇿 CZ 02 - xiaobo
   - 🇨🇿 CZ 03 - xiaobo
-  - 🇨🇿 CZ 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -63,6 +55,5 @@ proxy-groups:
   - 🇨🇿 CZ 01 - xiaobo
   - 🇨🇿 CZ 02 - xiaobo
   - 🇨🇿 CZ 03 - xiaobo
-  - 🇨🇿 CZ 04 - xiaobo
 rules:
 - MATCH,PROXIES
