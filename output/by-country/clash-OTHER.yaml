@@ -6,49 +6,21 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaobo
   type: vless
-  server: 104.16.10.104
+  server: 188.114.97.6
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
-      Host: jp3.yohototo.top
+      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 02 - xiaobo
   type: vless
-  server: 104.16.10.22
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 03 - xiaobo
-  type: vless
-  server: 104.16.10.22
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 04 - xiaobo
-  type: vless
-  server: 172.67.76.40
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -57,12 +29,25 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 05 - xiaobo
+- name: 🌐 其他地区 (Other) 03 - xiaobo
   type: vless
-  server: 172.64.153.153
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 04 - xiaobo
+  type: vless
+  server: 104.18.47.73
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -74,7 +59,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 06 - xiaobo
+- name: 🌐 其他地区 (Other) 05 - xiaobo
   type: vless
   server: 104.18.41.190
   port: 443
@@ -88,93 +73,9 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - xiaobo
+- name: 🌐 其他地区 (Other) 06 - xiaobo
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 08 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 09 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 3c52e091-6714-4915-949f-2149fe69951b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray.simspeedup.com
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: v2ray.simspeedup.com
-- name: 🌐 其他地区 (Other) 10 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 11 - xiaobo
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 12 - xiaobo
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 13 - xiaobo
-  type: vless
-  server: 104.16.10.234
+  server: 104.16.10.2
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -186,9 +87,9 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 14 - xiaobo
+- name: 🌐 其他地区 (Other) 07 - xiaobo
   type: vless
-  server: 104.21.71.249
+  server: 162.159.250.29
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -197,10 +98,80 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 15 - xiaobo
+- name: 🌐 其他地区 (Other) 08 - xiaobo
+  type: vless
+  server: 172.67.145.14
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 09 - xiaobo
+  type: vless
+  server: 104.18.37.247
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 10 - xiaobo
+  type: vless
+  server: 188.114.98.0
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 11 - xiaobo
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
+- name: 🌐 其他地区 (Other) 12 - xiaobo
+  type: vless
+  server: 172.64.153.153
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 13 - xiaobo
   type: vless
   server: 188.114.97.6
   port: 443
@@ -211,23 +182,24 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    path: /cart/docs/www/proxyip=108.160.132.132?ed
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 16 - xiaobo
+- name: 🌐 其他地区 (Other) 14 - xiaobo
   type: vless
-  server: 104.18.0.181
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: nuclear.us.kg
   network: ws
   ws-opts:
-    path: /
+    path: /free/1.226.227.169:50001
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 17 - xiaobo
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 15 - xiaobo
   type: vless
   server: 104.26.4.2
   port: 443
@@ -241,9 +213,23 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 18 - xiaobo
+- name: 🌐 其他地区 (Other) 16 - xiaobo
   type: vless
-  server: www.5199dy.com
+  server: 188.114.97.6
+  port: 2053
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 17 - xiaobo
+  type: vless
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -252,26 +238,26 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - xiaobo
+- name: 🌐 其他地区 (Other) 18 - xiaobo
   type: vless
-  server: 104.24.31.89
+  server: 188.114.97.6
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 20 - xiaobo
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 19 - xiaobo
   type: vless
-  server: 104.18.40.100
+  server: 104.18.37.247
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -283,23 +269,9 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 21 - xiaobo
+- name: 🌐 其他地区 (Other) 20 - xiaobo
   type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 22 - xiaobo
-  type: vless
-  server: 188.114.97.6
+  server: cf.130519.xyz
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -308,12 +280,12 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
+    path: /cart/docs/www/proxyip=108.160.132.132+
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 23 - xiaobo
+- name: 🌐 其他地区 (Other) 21 - xiaobo
   type: vless
-  server: 104.21.0.87
+  server: 188.114.98.0
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -325,20 +297,48 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 24 - xiaobo
+- name: 🌐 其他地区 (Other) 22 - xiaobo
   type: vless
-  server: 104.21.6.186
+  server: 172.64.149.65
   port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: a.cwvps.eu.org
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
   network: ws
   ws-opts:
-    path: /ws
+    path: /
     headers:
-      Host: a.cwvps.eu.org
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 23 - xiaobo
+  type: vless
+  server: 104.21.91.244
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 24 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
+    headers:
+      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 25 - xiaobo
   type: vless
   server: 162.159.250.29
@@ -355,21 +355,21 @@ proxies:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 26 - xiaobo
   type: vless
-  server: 104.18.37.127
+  server: 172.67.160.192
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: nuclear.us.kg
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /free/103.101.153.32:443
     headers:
-      Host: jp3.yohototo.top
+      Host: nuclear.us.kg
 - name: 🌐 其他地区 (Other) 27 - xiaobo
   type: vless
-  server: 188.114.98.0
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -378,24 +378,66 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---JKVPN--JKVPN--JKVPN
     headers:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 28 - xiaobo
   type: vless
-  server: 188.114.98.0
+  server: 172.64.145.206
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: powered-by-surena.configfarsi695fce27aa549.workers.dev
   network: ws
   ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed
+    path: /?ed
     headers:
-      Host: lucasjow.us.ci
+      Host: powered-by-surena.configfarsi695fce27aa549.workers.dev
 - name: 🌐 其他地区 (Other) 29 - xiaobo
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 30 - xiaobo
+  type: vless
+  server: www.5199dy.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 31 - xiaobo
+  type: vless
+  server: 104.21.14.232
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 32 - xiaobo
   type: vless
   server: 172.67.172.155
   port: 443
@@ -409,443 +451,23 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 30 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 31 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 32 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 33 - xiaobo
   type: vless
-  server: 104.21.34.106
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 188.114.97.6
+  port: 2096
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: levikoconfig.levikogjgfdd.ir
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: levikoconfig.levikogjgfdd.ir
 - name: 🌐 其他地区 (Other) 34 - xiaobo
   type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 35 - xiaobo
-  type: vless
   server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 36 - xiaobo
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 37 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 38 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 39 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 40 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?V2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY-joinV2XAY
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 41 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 42 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 43 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 44 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 45 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 46 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 47 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 48 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 49 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 50 - xiaobo
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 51 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 52 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#TELEGRAM--pirozi_ArGaP?ed=2560
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 53 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 54 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 55 - xiaobo
-  type: vless
-  server: 104.18.40.100
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 56 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 57 - xiaobo
-  type: vless
-  server: cf.130519.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 58 - xiaobo
-  type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 59 - xiaobo
-  type: vless
-  server: 104.18.47.73
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 60 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 61 - xiaobo
-  type: vless
-  server: cf.877774.xyz
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -857,9 +479,23 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 62 - xiaobo
+- name: 🌐 其他地区 (Other) 35 - xiaobo
   type: vless
-  server: 188.114.97.6
+  server: 172.64.146.66
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
+- name: 🌐 其他地区 (Other) 36 - xiaobo
+  type: vless
+  server: 104.21.93.182
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -868,80 +504,37 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---bored_vpn
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 63 - xiaobo
+- name: 🌐 其他地区 (Other) 37 - xiaobo
   type: vless
-  server: 188.114.98.0
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 38 - xiaobo
+  type: vless
+  server: 104.21.73.135
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
-    path: T
+    path: /api/ws
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 64 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 65 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 66 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 67 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 68 - xiaobo
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 39 - xiaobo
   type: vless
   server: 172.64.146.66
   port: 443
@@ -955,9 +548,9 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 69 - xiaobo
+- name: 🌐 其他地区 (Other) 40 - xiaobo
   type: vless
-  server: 104.21.91.244
+  server: cf.877774.xyz
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -966,247 +559,38 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 70 - xiaobo
+- name: 🌐 其他地区 (Other) 41 - xiaobo
   type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 71 - xiaobo
-  type: vless
-  server: 104.21.91.244
+  server: 8.35.211.236
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 72 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 73 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 74 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 75 - xiaobo
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 76 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: kkkk-bq7.pages.dev
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 77 - xiaobo
+      Host: kkkk-bq7.pages.dev
+- name: 🌐 其他地区 (Other) 42 - xiaobo
   type: vless
-  server: 188.114.98.0
+  server: 104.27.124.133
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: lucasjow.us.ci
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
   network: ws
   ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
+    path: /api/ws
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 78 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 79 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 80 - xiaobo
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 81 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 82 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 83 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: 3fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 84 - xiaobo
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 85 - xiaobo
-  type: vless
-  server: 104.18.37.247
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 86 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: Tfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 87 - xiaobo
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 43 - xiaobo
   type: vless
   server: 104.18.40.100
   port: 443
@@ -1220,23 +604,9 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 88 - xiaobo
+- name: 🌐 其他地区 (Other) 44 - xiaobo
   type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 89 - xiaobo
-  type: vless
-  server: 188.114.97.6
+  server: b2n.ir
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -1245,13 +615,13 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?Telegram---mehrosaboran?edfp=chrome
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 90 - xiaobo
+- name: 🌐 其他地区 (Other) 45 - xiaobo
   type: vless
-  server: 188.114.97.6
-  port: 2053
+  server: cf.130519.xyz
+  port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
   tls: true
@@ -1259,23 +629,65 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---
+    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 91 - xiaobo
+- name: 🌐 其他地区 (Other) 46 - xiaobo
   type: vless
-  server: 104.16.111.102
+  server: 172.64.158.170
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 47 - xiaobo
+  type: vless
+  server: 104.27.110.37
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 48 - xiaobo
+  type: vless
+  server: 104.21.93.182
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 49 - xiaobo
+  type: vless
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -1330,48 +742,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - xiaobo
   - 🌐 其他地区 (Other) 48 - xiaobo
   - 🌐 其他地区 (Other) 49 - xiaobo
-  - 🌐 其他地区 (Other) 50 - xiaobo
-  - 🌐 其他地区 (Other) 51 - xiaobo
-  - 🌐 其他地区 (Other) 52 - xiaobo
-  - 🌐 其他地区 (Other) 53 - xiaobo
-  - 🌐 其他地区 (Other) 54 - xiaobo
-  - 🌐 其他地区 (Other) 55 - xiaobo
-  - 🌐 其他地区 (Other) 56 - xiaobo
-  - 🌐 其他地区 (Other) 57 - xiaobo
-  - 🌐 其他地区 (Other) 58 - xiaobo
-  - 🌐 其他地区 (Other) 59 - xiaobo
-  - 🌐 其他地区 (Other) 60 - xiaobo
-  - 🌐 其他地区 (Other) 61 - xiaobo
-  - 🌐 其他地区 (Other) 62 - xiaobo
-  - 🌐 其他地区 (Other) 63 - xiaobo
-  - 🌐 其他地区 (Other) 64 - xiaobo
-  - 🌐 其他地区 (Other) 65 - xiaobo
-  - 🌐 其他地区 (Other) 66 - xiaobo
-  - 🌐 其他地区 (Other) 67 - xiaobo
-  - 🌐 其他地区 (Other) 68 - xiaobo
-  - 🌐 其他地区 (Other) 69 - xiaobo
-  - 🌐 其他地区 (Other) 70 - xiaobo
-  - 🌐 其他地区 (Other) 71 - xiaobo
-  - 🌐 其他地区 (Other) 72 - xiaobo
-  - 🌐 其他地区 (Other) 73 - xiaobo
-  - 🌐 其他地区 (Other) 74 - xiaobo
-  - 🌐 其他地区 (Other) 75 - xiaobo
-  - 🌐 其他地区 (Other) 76 - xiaobo
-  - 🌐 其他地区 (Other) 77 - xiaobo
-  - 🌐 其他地区 (Other) 78 - xiaobo
-  - 🌐 其他地区 (Other) 79 - xiaobo
-  - 🌐 其他地区 (Other) 80 - xiaobo
-  - 🌐 其他地区 (Other) 81 - xiaobo
-  - 🌐 其他地区 (Other) 82 - xiaobo
-  - 🌐 其他地区 (Other) 83 - xiaobo
-  - 🌐 其他地区 (Other) 84 - xiaobo
-  - 🌐 其他地区 (Other) 85 - xiaobo
-  - 🌐 其他地区 (Other) 86 - xiaobo
-  - 🌐 其他地区 (Other) 87 - xiaobo
-  - 🌐 其他地区 (Other) 88 - xiaobo
-  - 🌐 其他地区 (Other) 89 - xiaobo
-  - 🌐 其他地区 (Other) 90 - xiaobo
-  - 🌐 其他地区 (Other) 91 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1426,47 +796,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 47 - xiaobo
   - 🌐 其他地区 (Other) 48 - xiaobo
   - 🌐 其他地区 (Other) 49 - xiaobo
-  - 🌐 其他地区 (Other) 50 - xiaobo
-  - 🌐 其他地区 (Other) 51 - xiaobo
-  - 🌐 其他地区 (Other) 52 - xiaobo
-  - 🌐 其他地区 (Other) 53 - xiaobo
-  - 🌐 其他地区 (Other) 54 - xiaobo
-  - 🌐 其他地区 (Other) 55 - xiaobo
-  - 🌐 其他地区 (Other) 56 - xiaobo
-  - 🌐 其他地区 (Other) 57 - xiaobo
-  - 🌐 其他地区 (Other) 58 - xiaobo
-  - 🌐 其他地区 (Other) 59 - xiaobo
-  - 🌐 其他地区 (Other) 60 - xiaobo
-  - 🌐 其他地区 (Other) 61 - xiaobo
-  - 🌐 其他地区 (Other) 62 - xiaobo
-  - 🌐 其他地区 (Other) 63 - xiaobo
-  - 🌐 其他地区 (Other) 64 - xiaobo
-  - 🌐 其他地区 (Other) 65 - xiaobo
-  - 🌐 其他地区 (Other) 66 - xiaobo
-  - 🌐 其他地区 (Other) 67 - xiaobo
-  - 🌐 其他地区 (Other) 68 - xiaobo
-  - 🌐 其他地区 (Other) 69 - xiaobo
-  - 🌐 其他地区 (Other) 70 - xiaobo
-  - 🌐 其他地区 (Other) 71 - xiaobo
-  - 🌐 其他地区 (Other) 72 - xiaobo
-  - 🌐 其他地区 (Other) 73 - xiaobo
-  - 🌐 其他地区 (Other) 74 - xiaobo
-  - 🌐 其他地区 (Other) 75 - xiaobo
-  - 🌐 其他地区 (Other) 76 - xiaobo
-  - 🌐 其他地区 (Other) 77 - xiaobo
-  - 🌐 其他地区 (Other) 78 - xiaobo
-  - 🌐 其他地区 (Other) 79 - xiaobo
-  - 🌐 其他地区 (Other) 80 - xiaobo
-  - 🌐 其他地区 (Other) 81 - xiaobo
-  - 🌐 其他地区 (Other) 82 - xiaobo
-  - 🌐 其他地区 (Other) 83 - xiaobo
-  - 🌐 其他地区 (Other) 84 - xiaobo
-  - 🌐 其他地区 (Other) 85 - xiaobo
-  - 🌐 其他地区 (Other) 86 - xiaobo
-  - 🌐 其他地区 (Other) 87 - xiaobo
-  - 🌐 其他地区 (Other) 88 - xiaobo
-  - 🌐 其他地区 (Other) 89 - xiaobo
-  - 🌐 其他地区 (Other) 90 - xiaobo
-  - 🌐 其他地区 (Other) 91 - xiaobo
 rules:
 - MATCH,PROXIES
