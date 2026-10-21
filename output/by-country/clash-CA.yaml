@@ -5,20 +5,15 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - xiaobo
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  type: ss
+  server: 51.79.49.116
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇨🇦 加拿大 (Canada) 02 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -28,7 +23,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 03 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -47,18 +42,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 05 - xiaobo
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇨🇦 加拿大 (Canada) 06 - xiaobo
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -68,9 +51,19 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 06 - xiaobo
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 07 - xiaobo
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -89,18 +82,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 09 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 10 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -110,7 +100,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 11 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -119,54 +109,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 12 - xiaobo
-  type: vless
-  server: milo.rubinaz.xyz
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 13 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 14 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 15 - xiaobo
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 16 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 17 - xiaobo
   type: vless
   server: 148.113.196.75
   port: 8443
@@ -180,7 +122,7 @@ proxies:
     path: /vless/
     headers:
       Host: 148.113.196.75
-- name: 🇨🇦 加拿大 (Canada) 18 - xiaobo
+- name: 🇨🇦 加拿大 (Canada) 13 - xiaobo
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -190,6 +132,49 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 14 - xiaobo
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 15 - xiaobo
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 16 - xiaobo
+  type: ss
+  server: 51.79.64.198
+  port: 8119
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 17 - xiaobo
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 18 - xiaobo
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
+  udp: true
 - name: 🇨🇦 加拿大 (Canada) 19 - xiaobo
   type: vmess
   server: 134.195.196.211
@@ -201,6 +186,83 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 20 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 21 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 22 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 23 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 24 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 25 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 26 - xiaobo
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 27 - xiaobo
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 28 - xiaobo
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -212,125 +274,16 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇨🇦 加拿大 (Canada) 21 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 22 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 23 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpnfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 24 - xiaobo
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 25 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 26 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 27 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 28 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇨🇦 加拿大 (Canada) 29 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM----ICV2RAY?ed
-    headers:
-      Host: lucasjow.us.ci
 - name: 🇨🇦 加拿大 (Canada) 30 - xiaobo
   type: vmess
   server: 134.195.196.211
@@ -342,994 +295,15 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 31 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 32 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 33 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 34 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: T
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 35 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 36 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 37 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 38 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 39 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 40 - xiaobo
   type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 41 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 42 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 43 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 44 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 45 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 46 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 47 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM----ICV2RAY?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 48 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 49 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 50 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 51 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 52 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 53 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 54 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 55 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /p=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 56 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 57 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---Vpney
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 58 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 59 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 60 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 61 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---Vpney
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 62 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 63 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '%252'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 64 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 65 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 66 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM--v2ray_configs_pools?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 67 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 68 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 69 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 70 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 71 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 72 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 73 - xiaobo
-  type: ss
-  server: 51.222.12.127
+  server: 51.222.141.125
   port: 445
   cipher: aes-256-gcm
   password: zDNVedRFPQexG9v
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 74 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 75 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 76 - xiaobo
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 77 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 78 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--i10VPN?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 79 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 80 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 81 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /p=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 82 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 83 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 84 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 85 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 86 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 87 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 88 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 89 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 90 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 91 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 92 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBS
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 93 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 94 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 95 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 96 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 97 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 98 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 99 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 100 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 101 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 102 - xiaobo
-  type: vless
-  server: 104.21.63.28
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: youxuanku.kdns.fr
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
-- name: 🇨🇦 加拿大 (Canada) 103 - xiaobo
+- name: 🇨🇦 加拿大 (Canada) 32 - xiaobo
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -1337,161 +311,17 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 104 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+- name: 🇨🇦 加拿大 (Canada) 33 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 105 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 106 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 107 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 108 - xiaobo
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 109 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 110 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?SAFEWEBS_SAFEWEBS_SAFEWEBS_SAFEWEBSfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 111 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 112 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 113 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 114 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 115 - xiaobo
+- name: 🇨🇦 加拿大 (Canada) 34 - xiaobo
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -1502,71 +332,18 @@ proxies:
   reality-opts:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 116 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 35 - xiaobo
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 117 - xiaobo
-  type: vless
-  server: 172.67.142.169
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: youxuanku.kdns.fr
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
-- name: 🇨🇦 加拿大 (Canada) 118 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 119 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '%25'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 120 - xiaobo
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 121 - xiaobo
+- name: 🇨🇦 加拿大 (Canada) 36 - xiaobo
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -1576,855 +353,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 122 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 123 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /+
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 124 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 125 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 126 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 127 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 128 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 129 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 130 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---V2ray_confiig?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 131 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 132 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 133 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 134 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboran?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 135 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 136 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 137 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 138 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 139 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?V2XAY-joinV
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 140 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 141 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 142 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 143 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---TEHRANARGO
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 144 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 145 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /V2ray_confiig---V2ray_confiig---V2ray_confiig?ed=1024
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 146 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 147 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 148 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 149 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 150 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /Chanel0111Net
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 151 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 152 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--v2ray_configs_pools?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 153 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGIfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 154 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---@VPNine1---
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 155 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 156 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM-TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 157 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?edfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 158 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 159 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 160 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: T
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 161 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 162 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyipfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 163 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 164 - xiaobo
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 165 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /DailyConfigs---DailyConfigs---DailyConfigs?ed=1024
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 166 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 167 - xiaobo
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 168 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '0'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 169 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MTMVPN--MTMVPN--MTMVPN--MTMVPN?ed=2560
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 170 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM?ed=2048
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 171 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: ?Telegram---DailyConfigs---DailyConfigs---DailyConfigsfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 172 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---DailyConfigs---DailyConfigs---DailyConfigs
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 173 - xiaobo
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 174 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '0'
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 175 - xiaobo
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 176 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 177 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: 3fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 178 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 179 - xiaobo
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?DailyConfigs---DailyConfigs---DailyConfigs?ed=2056
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 180 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?Telegram---mehrosaboranfp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 181 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 182 - xiaobo
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦 加拿大 (Canada) 183 - xiaobo
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: '3'
-    headers:
-      Host: lucasjow.us.ci
 proxy-groups:
 - name: PROXIES
   type: select
@@ -2466,153 +394,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 34 - xiaobo
   - 🇨🇦 加拿大 (Canada) 35 - xiaobo
   - 🇨🇦 加拿大 (Canada) 36 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 37 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 38 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 39 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 40 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 41 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 42 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 43 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 44 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 45 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 46 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 47 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 48 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 49 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 50 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 51 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 52 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 53 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 54 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 55 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 56 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 57 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 58 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 59 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 60 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 61 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 62 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 63 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 64 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 65 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 66 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 67 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 68 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 69 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 70 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 71 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 72 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 73 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 74 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 75 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 76 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 77 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 78 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 79 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 80 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 81 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 82 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 83 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 84 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 85 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 86 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 87 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 88 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 89 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 90 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 91 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 92 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 93 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 94 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 95 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 96 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 97 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 98 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 99 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 100 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 101 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 102 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 103 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 104 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 105 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 106 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 107 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 108 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 109 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 110 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 111 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 112 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 113 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 114 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 115 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 116 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 117 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 118 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 119 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 120 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 121 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 122 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 123 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 124 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 125 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 126 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 127 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 128 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 129 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 130 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 131 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 132 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 133 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 134 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 135 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 136 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 137 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 138 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 139 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 140 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 141 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 142 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 143 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 144 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 145 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 146 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 147 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 148 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 149 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 150 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 151 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 152 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 153 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 154 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 155 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 156 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 157 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 158 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 159 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 160 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 161 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 162 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 163 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 164 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 165 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 166 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 167 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 168 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 169 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 170 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 171 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 172 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 173 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 174 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 175 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 176 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 177 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 178 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 179 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 180 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 181 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 182 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 183 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -2654,152 +435,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 34 - xiaobo
   - 🇨🇦 加拿大 (Canada) 35 - xiaobo
   - 🇨🇦 加拿大 (Canada) 36 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 37 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 38 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 39 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 40 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 41 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 42 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 43 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 44 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 45 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 46 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 47 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 48 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 49 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 50 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 51 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 52 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 53 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 54 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 55 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 56 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 57 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 58 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 59 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 60 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 61 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 62 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 63 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 64 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 65 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 66 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 67 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 68 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 69 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 70 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 71 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 72 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 73 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 74 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 75 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 76 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 77 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 78 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 79 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 80 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 81 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 82 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 83 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 84 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 85 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 86 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 87 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 88 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 89 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 90 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 91 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 92 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 93 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 94 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 95 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 96 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 97 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 98 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 99 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 100 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 101 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 102 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 103 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 104 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 105 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 106 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 107 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 108 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 109 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 110 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 111 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 112 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 113 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 114 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 115 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 116 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 117 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 118 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 119 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 120 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 121 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 122 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 123 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 124 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 125 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 126 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 127 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 128 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 129 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 130 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 131 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 132 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 133 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 134 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 135 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 136 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 137 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 138 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 139 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 140 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 141 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 142 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 143 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 144 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 145 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 146 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 147 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 148 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 149 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 150 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 151 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 152 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 153 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 154 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 155 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 156 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 157 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 158 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 159 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 160 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 161 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 162 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 163 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 164 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 165 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 166 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 167 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 168 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 169 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 170 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 171 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 172 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 173 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 174 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 175 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 176 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 177 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 178 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 179 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 180 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 181 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 182 - xiaobo
-  - 🇨🇦 加拿大 (Canada) 183 - xiaobo
 rules:
 - MATCH,PROXIES
