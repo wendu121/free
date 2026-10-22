@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - xiaobo"
+        "🇫🇮 FI 01 - xiaobo",
+        "🇫🇮 FI 02 - xiaobo",
+        "🇫🇮 FI 03 - xiaobo",
+        "🇫🇮 FI 04 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - xiaobo"
+        "🇫🇮 FI 01 - xiaobo",
+        "🇫🇮 FI 02 - xiaobo",
+        "🇫🇮 FI 03 - xiaobo",
+        "🇫🇮 FI 04 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
