@@ -20,8 +20,16 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.225.89
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - xiaobo
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 04 - xiaobo
   type: vless
   server: 2.26.225.89
   port: 8443
@@ -29,7 +37,7 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: pl.flen-vpn.xyz
+  servername: 2.26.225.89
 proxy-groups:
 - name: PROXIES
   type: select
@@ -38,6 +46,7 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
   - 🇵🇱 PL 03 - xiaobo
+  - 🇵🇱 PL 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +55,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - xiaobo
   - 🇵🇱 PL 02 - xiaobo
   - 🇵🇱 PL 03 - xiaobo
+  - 🇵🇱 PL 04 - xiaobo
 rules:
 - MATCH,PROXIES

@@ -5,13 +5,55 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇭 CH 01 - xiaobo
+  type: vless
+  server: 57.129.130.57
+  port: 52014
+  uuid: 47ba5dc6-8961-48a0-8b54-f57ec524627a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: jln31qtswdkut5.60kohcognywybguuq3ouc818oofnxfvn35daott.workers.dev
+- name: 🇨🇭 CH 02 - xiaobo
+  type: vless
+  server: 57.129.130.63
+  port: 52014
+  uuid: d731cf09-79a6-4647-aabe-8e0fda4fe3be
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+  network: ws
+  ws-opts:
+    path: /@Marisa_kristi
+    headers:
+      Host: 9-7u3b6e.wzkija0v0du4yhk6jfyfafml3nh22kne.workers.dev
+- name: 🇨🇭 CH 03 - xiaobo
+  type: vless
+  server: 185.18.250.245
+  port: 443
+  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edu.ruangguru.com.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /nl-tw
+    headers:
+      Host: edu.ruangguru.com.r3xxe.eu.cc
+- name: 🇨🇭 CH 04 - xiaobo
   type: ss
   server: 132.243.175.144
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
   udp: true
-- name: 🇨🇭 CH 02 - xiaobo
+- name: 🇨🇭 CH 05 - xiaobo
   type: ss
   server: 132.243.175.144
   port: 8388
@@ -25,6 +67,9 @@ proxy-groups:
   - AUTO
   - 🇨🇭 CH 01 - xiaobo
   - 🇨🇭 CH 02 - xiaobo
+  - 🇨🇭 CH 03 - xiaobo
+  - 🇨🇭 CH 04 - xiaobo
+  - 🇨🇭 CH 05 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -32,5 +77,8 @@ proxy-groups:
   proxies:
   - 🇨🇭 CH 01 - xiaobo
   - 🇨🇭 CH 02 - xiaobo
+  - 🇨🇭 CH 03 - xiaobo
+  - 🇨🇭 CH 04 - xiaobo
+  - 🇨🇭 CH 05 - xiaobo
 rules:
 - MATCH,PROXIES
