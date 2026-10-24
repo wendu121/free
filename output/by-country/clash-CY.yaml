@@ -4,30 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇱🇰 LK 01 - xiaobo
+- name: 🇨🇾 CY 01 - xiaobo
   type: vless
-  server: free.sahanwickramasinghe.me
-  port: 80
-  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  server: 5.253.29.254
+  port: 14430
+  uuid: c7c27192-60a5-4ce1-b613-95270d82309d
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /vless
     headers:
-      Host: free.sahanwickramasinghe.me
+      Host: 5.253.29.254
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇱🇰 LK 01 - xiaobo
+  - 🇨🇾 CY 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇱🇰 LK 01 - xiaobo
+  - 🇨🇾 CY 01 - xiaobo
 rules:
 - MATCH,PROXIES
