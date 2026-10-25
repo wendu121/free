@@ -7,7 +7,9 @@
       "outbounds": [
         "auto",
         "🇨🇳 CN 01 - xiaobo",
-        "🇨🇳 CN 02 - xiaobo"
+        "🇨🇳 CN 02 - xiaobo",
+        "🇨🇳 CN 03 - xiaobo",
+        "🇨🇳 CN 04 - xiaobo"
       ]
     },
     {
@@ -15,7 +17,9 @@
       "tag": "auto",
       "outbounds": [
         "🇨🇳 CN 01 - xiaobo",
-        "🇨🇳 CN 02 - xiaobo"
+        "🇨🇳 CN 02 - xiaobo",
+        "🇨🇳 CN 03 - xiaobo",
+        "🇨🇳 CN 04 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
