@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 UA 01 - xiaobo"
+        "🇺🇦 UA 01 - xiaobo",
+        "🇺🇦 UA 02 - xiaobo",
+        "🇺🇦 UA 03 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - xiaobo"
+        "🇺🇦 UA 01 - xiaobo",
+        "🇺🇦 UA 02 - xiaobo",
+        "🇺🇦 UA 03 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
