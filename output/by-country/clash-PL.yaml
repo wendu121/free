@@ -6,14 +6,6 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - xiaobo
   type: vless
-  server: edge10.cyrionflare.com
-  port: 2052
-  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇵🇱 PL 02 - xiaobo
-  type: vless
   server: 2.26.6.1
   port: 2087
   uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
@@ -21,7 +13,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: 2.26.6.1
-- name: 🇵🇱 PL 03 - xiaobo
+- name: 🇵🇱 PL 02 - xiaobo
   type: vless
   server: site.teslamotor.site
   port: 20001
@@ -29,11 +21,19 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 04 - xiaobo
+- name: 🇵🇱 PL 03 - xiaobo
   type: vless
-  server: 168.222.43.53
+  server: edge10.cyrionflare.com
   port: 2052
   uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 04 - xiaobo
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
@@ -73,13 +73,44 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 09 - xiaobo
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: pl5.h1cloud.net
+  port: 25548
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 2.26.6.1
+  reality-opts:
+    public-key: lceynvFy326oU4ew9OPR7079m-L5ZcFELgCl0sqxU2M
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇵🇱 PL 10 - xiaobo
+  type: vless
+  server: 79.182.39.35
+  port: 25548
+  uuid: 5a519754-a673-4462-83f6-5eb25d2af141
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: lceynvFy326oU4ew9OPR7079m-L5ZcFELgCl0sqxU2M
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇵🇱 PL 11 - xiaobo
+  type: vless
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 12 - xiaobo
+  type: vless
+  server: 168.222.43.53
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -94,6 +125,9 @@ proxy-groups:
   - 🇵🇱 PL 07 - xiaobo
   - 🇵🇱 PL 08 - xiaobo
   - 🇵🇱 PL 09 - xiaobo
+  - 🇵🇱 PL 10 - xiaobo
+  - 🇵🇱 PL 11 - xiaobo
+  - 🇵🇱 PL 12 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -108,5 +142,8 @@ proxy-groups:
   - 🇵🇱 PL 07 - xiaobo
   - 🇵🇱 PL 08 - xiaobo
   - 🇵🇱 PL 09 - xiaobo
+  - 🇵🇱 PL 10 - xiaobo
+  - 🇵🇱 PL 11 - xiaobo
+  - 🇵🇱 PL 12 - xiaobo
 rules:
 - MATCH,PROXIES
