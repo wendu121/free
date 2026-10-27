@@ -4,25 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇾 CY 01 - xiaobo
-  type: vless
-  server: 171.22.119.74
-  port: 8447
-  uuid: 6aed42ba-cd2d-4671-87d9-c949b6876888
+- name: 🇦🇱 AL 01 - xiaobo
+  type: ss
+  server: dns22.m3hrzd.ir
+  port: 1348
+  cipher: chacha20-ietf-poly1305
+  password: LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn
   udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇾 CY 01 - xiaobo
+  - 🇦🇱 AL 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇾 CY 01 - xiaobo
+  - 🇦🇱 AL 01 - xiaobo
 rules:
 - MATCH,PROXIES
