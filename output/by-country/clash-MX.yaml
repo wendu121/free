@@ -15,7 +15,7 @@ proxies:
   servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 02 - xiaobo
   type: vless
-  server: 149.104.90.21
+  server: mx001.zestapp778.com
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
   udp: true
@@ -42,24 +42,6 @@ proxies:
   servername: mx001.zestapp778.com
 - name: 🇲🇽 MX 05 - xiaobo
   type: vless
-  server: mx001.zestapp778.com
-  port: 19167
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mx001.zestapp778.com
-- name: 🇲🇽 MX 06 - xiaobo
-  type: vless
-  server: mx001.zestapp778.com
-  port: 19167
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: mx001.zestapp778.com
-- name: 🇲🇽 MX 07 - xiaobo
-  type: vless
   server: 149.104.90.21
   port: 19167
   uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
@@ -67,15 +49,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: mx001.zestapp778.com
-- name: 🇲🇽 MX 08 - xiaobo
-  type: vless
-  server: 149.104.90.21
-  port: 19167
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 149.104.90.21
 proxy-groups:
 - name: PROXIES
   type: select
@@ -86,9 +59,6 @@ proxy-groups:
   - 🇲🇽 MX 03 - xiaobo
   - 🇲🇽 MX 04 - xiaobo
   - 🇲🇽 MX 05 - xiaobo
-  - 🇲🇽 MX 06 - xiaobo
-  - 🇲🇽 MX 07 - xiaobo
-  - 🇲🇽 MX 08 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -99,8 +69,5 @@ proxy-groups:
   - 🇲🇽 MX 03 - xiaobo
   - 🇲🇽 MX 04 - xiaobo
   - 🇲🇽 MX 05 - xiaobo
-  - 🇲🇽 MX 06 - xiaobo
-  - 🇲🇽 MX 07 - xiaobo
-  - 🇲🇽 MX 08 - xiaobo
 rules:
 - MATCH,PROXIES
