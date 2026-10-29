@@ -20,31 +20,19 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🇹🇷 土耳其 (Turkey) 02 - xiaobo
   type: vless
-  server: 151.241.226.201
-  port: 2053
-  uuid: 0eed6293-8cf1-4e77-ac10-9c3d50d0b2f8
+  server: 177.3.208.65
+  port: 443
+  uuid: 4f34bc04-479c-49ba-91a8-6bb9ed15031c
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: bYW_MmB_CUHrsyoCAUKviI2LZdHf63yY2yOPXbih104
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇹🇷 土耳其 (Turkey) 03 - xiaobo
-  type: vless
-  server: 206.1.101.85
-  port: 42654
-  uuid: ab9e2cf5-b5f5-45d1-bddf-8ea9b6fcc48f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 206.1.101.85
+  servername: tgmansion.site
   network: ws
   ws-opts:
-    path: /
+    path: /vless-tr
     headers:
-      Host: 206.1.101.85
-- name: 🇹🇷 土耳其 (Turkey) 04 - xiaobo
+      Host: 177.3.208.65
+- name: 🇹🇷 土耳其 (Turkey) 03 - xiaobo
   type: vless
   server: 155.103.71.142
   port: 443
@@ -66,7 +54,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaobo
   - 🇹🇷 土耳其 (Turkey) 02 - xiaobo
   - 🇹🇷 土耳其 (Turkey) 03 - xiaobo
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -75,6 +62,5 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - xiaobo
   - 🇹🇷 土耳其 (Turkey) 02 - xiaobo
   - 🇹🇷 土耳其 (Turkey) 03 - xiaobo
-  - 🇹🇷 土耳其 (Turkey) 04 - xiaobo
 rules:
 - MATCH,PROXIES
