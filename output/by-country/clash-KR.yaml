@@ -6,37 +6,19 @@ log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - xiaobo
   type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.226.63
-- name: 🇰🇷 韩国 (South Korea) 02 - xiaobo
-  type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 03 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 5498
-  cipher: aes-256-gcm
-  password: lGqs95QkFHo2NV
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 04 - xiaobo
+  servername: sg2-xr.zgrelay.com
+  network: ws
+  ws-opts:
+    path: /700gvl-kr3
+    headers:
+      Host: sg2-xr.zgrelay.com
+- name: 🇰🇷 韩国 (South Korea) 02 - xiaobo
   type: vmess
   server: nickgus.cc.cd
   port: 443
@@ -52,7 +34,7 @@ proxies:
     path: /photos
     headers:
       Host: ''
-- name: 🇰🇷 韩国 (South Korea) 05 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 03 - xiaobo
   type: vless
   server: 152.69.226.63
   port: 25555
@@ -65,26 +47,20 @@ proxies:
     path: /
     headers:
       Host: 152.69.226.63
-- name: 🇰🇷 韩国 (South Korea) 06 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 7002
-  cipher: aes-256-gcm
-  password: RexnBgU7EV5ADxG
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 07 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 04 - xiaobo
   type: vless
-  server: 151.245.106.49
-  port: 2053
-  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇰🇷 韩国 (South Korea) 08 - xiaobo
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 05 - xiaobo
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -96,19 +72,48 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 09 - xiaobo
-  type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+- name: 🇰🇷 韩国 (South Korea) 06 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 6697
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
   udp: true
-  tls: false
+- name: 🇰🇷 韩国 (South Korea) 07 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 08 - xiaobo
+  type: vless
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: e221699d-e705-4664-9162-a75a82aa3997
+  udp: true
+  tls: true
   skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
   network: ws
   ws-opts:
-    path: /
+    path: /700gvl-kr3
     headers:
-      Host: 152.69.226.63
+      Host: sg2-xr.zgrelay.com
+- name: 🇰🇷 韩国 (South Korea) 09 - xiaobo
+  type: vless
+  server: sg2-xr.zgrelay.com
+  port: 443
+  uuid: E221699D-E705-4664-9162-A75A82AA3997
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg2-xr.zgrelay.com
+  network: ws
+  ws-opts:
+    path: /700gvl-kr3
+    headers:
+      Host: sg2-xr.zgrelay.com
 - name: 🇰🇷 韩国 (South Korea) 10 - xiaobo
   type: vless
   server: 151.245.106.49
@@ -123,6 +128,63 @@ proxies:
   client-fingerprint: chrome
 - name: 🇰🇷 韩国 (South Korea) 11 - xiaobo
   type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 12 - xiaobo
+  type: ss
+  server: 141.164.45.187
+  port: 6679
+  cipher: aes-256-gcm
+  password: TEzjfAYq2IjtuoS
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 13 - xiaobo
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇰🇷 韩国 (South Korea) 14 - xiaobo
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 15 - xiaobo
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 16 - xiaobo
+  type: vless
   server: sg2-xr.zgrelay.com
   port: 443
   uuid: E221699D-E705-4664-9162-A75A82AA3997
@@ -135,14 +197,7 @@ proxies:
     path: /700gvl-kr3
     headers:
       Host: sg2-xr.zgrelay.com
-- name: 🇰🇷 韩国 (South Korea) 12 - xiaobo
-  type: ss
-  server: 141.164.45.187
-  port: 9090
-  cipher: aes-256-gcm
-  password: Y6R9pAtvxxzmGC
-  udp: true
-- name: 🇰🇷 韩国 (South Korea) 13 - xiaobo
+- name: 🇰🇷 韩国 (South Korea) 17 - xiaobo
   type: vless
   server: sg2-xr.zgrelay.com
   port: 443
@@ -174,6 +229,10 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 11 - xiaobo
   - 🇰🇷 韩国 (South Korea) 12 - xiaobo
   - 🇰🇷 韩国 (South Korea) 13 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 14 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 15 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 16 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 17 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -192,5 +251,9 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 11 - xiaobo
   - 🇰🇷 韩国 (South Korea) 12 - xiaobo
   - 🇰🇷 韩国 (South Korea) 13 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 14 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 15 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 16 - xiaobo
+  - 🇰🇷 韩国 (South Korea) 17 - xiaobo
 rules:
 - MATCH,PROXIES
