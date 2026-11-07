@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - xiaobo
+- name: 🇧🇬 BG 01 - xiaobo
   type: vless
-  server: 8.35.211.242
-  port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  server: 188.114.97.6
+  port: 8080
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: vpn.cintaku.qzz.io
   network: ws
   ws-opts:
-    path: /vlessws
+    path: /vl/yLWNcuUuw1jlJpkDhGy?ed=2560
     headers:
-      Host: vpn.cintaku.qzz.io
+      Host: fornewiran.ade-1000.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - xiaobo
+  - 🇧🇬 BG 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - xiaobo
+  - 🇧🇬 BG 01 - xiaobo
 rules:
 - MATCH,PROXIES
