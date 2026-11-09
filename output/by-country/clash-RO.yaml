@@ -18,6 +18,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QFWzCw2uX9B9i6qAYeFBIE
   udp: true
+- name: 🇷🇴 RO 03 - xiaobo
+  type: vless
+  server: 81.181.166.197
+  port: 443
+  uuid: affb10d4-3835-4b1f-b5a3-3481489911b6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cat.ilovezhenjiu.top
+  network: ws
+  ws-opts:
+    path: /cgciws
+    headers:
+      Host: cat.ilovezhenjiu.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -25,6 +39,7 @@ proxy-groups:
   - AUTO
   - 🇷🇴 RO 01 - xiaobo
   - 🇷🇴 RO 02 - xiaobo
+  - 🇷🇴 RO 03 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -32,5 +47,6 @@ proxy-groups:
   proxies:
   - 🇷🇴 RO 01 - xiaobo
   - 🇷🇴 RO 02 - xiaobo
+  - 🇷🇴 RO 03 - xiaobo
 rules:
 - MATCH,PROXIES
