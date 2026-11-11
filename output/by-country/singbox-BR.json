@@ -6,14 +6,34 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇧🇷 BR 01 - xiaobo"
+        "🇧🇷 BR 01 - xiaobo",
+        "🇧🇷 BR 02 - xiaobo",
+        "🇧🇷 BR 03 - xiaobo",
+        "🇧🇷 BR 04 - xiaobo",
+        "🇧🇷 BR 05 - xiaobo",
+        "🇧🇷 BR 06 - xiaobo",
+        "🇧🇷 BR 07 - xiaobo",
+        "🇧🇷 BR 08 - xiaobo",
+        "🇧🇷 BR 09 - xiaobo",
+        "🇧🇷 BR 10 - xiaobo",
+        "🇧🇷 BR 11 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇧🇷 BR 01 - xiaobo"
+        "🇧🇷 BR 01 - xiaobo",
+        "🇧🇷 BR 02 - xiaobo",
+        "🇧🇷 BR 03 - xiaobo",
+        "🇧🇷 BR 04 - xiaobo",
+        "🇧🇷 BR 05 - xiaobo",
+        "🇧🇷 BR 06 - xiaobo",
+        "🇧🇷 BR 07 - xiaobo",
+        "🇧🇷 BR 08 - xiaobo",
+        "🇧🇷 BR 09 - xiaobo",
+        "🇧🇷 BR 10 - xiaobo",
+        "🇧🇷 BR 11 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
