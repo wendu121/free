@@ -5,24 +5,10 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
-  type: vless
-  server: 23.156.153.40
-  port: 443
-  uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fs.qicai99.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fs.qicai99.com
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
   type: vmess
-  server: 156.245.232.239
-  port: 35043
-  uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a
+  server: 47.244.120.197
+  port: 23026
+  uuid: b9de1bc9-baa7-41ac-86f7-ccd59695cb21
   alterId: 0
   cipher: auto
   udp: true
@@ -30,10 +16,10 @@ proxies:
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /arki
     headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
+      Host: 47.244.120.197
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
   type: vmess
   server: 47.244.120.197
   port: 23026
@@ -55,7 +41,6 @@ proxy-groups:
   - AUTO
   - 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -63,6 +48,5 @@ proxy-groups:
   proxies:
   - 🇭🇰 中国香港 (Hong Kong) 01 - xiaobo
   - 🇭🇰 中国香港 (Hong Kong) 02 - xiaobo
-  - 🇭🇰 中国香港 (Hong Kong) 03 - xiaobo
 rules:
 - MATCH,PROXIES
