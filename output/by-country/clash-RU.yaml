@@ -5,25 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
+  type: ss
+  server: 130.49.189.158
+  port: 43558
+  cipher: chacha20-ietf-poly1305
+  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+  udp: true
+- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
   type: vless
-  server: 104.21.29.38
+  server: 185.178.208.167
   port: 443
-  uuid: ac532d5e-2b9c-45a2-85df-37b3b74cffde
+  uuid: 4662bf2b-af58-0001-ae5f-ef3d7d3a624f
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  servername: mbr.rkn-pediki.site
   network: ws
   ws-opts:
-    path: /9dffa10cc2d3b317?ed=2560
+    path: /session
     headers:
-      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
-- name: 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
+      Host: mbr.rkn-pediki.site
+- name: 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
+  type: vless
+  server: 185.178.208.167
+  port: 443
+  uuid: 4662bf2b-af58-0001-ae5f-ef3d7d3a624f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mbr.rkn-pediki.site
+  network: ws
+  ws-opts:
+    path: /session
+    headers:
+      Host: mbr.rkn-pediki.site
+- name: 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
   type: ss
-  server: 38.60.223.125
-  port: 13108
-  cipher: aes-128-gcm
-  password: 8722de56b6c0b3f6a4d01cf91c07e6aa
+  server: 185.22.153.117
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
   udp: true
 proxy-groups:
 - name: PROXIES
@@ -32,6 +53,8 @@ proxy-groups:
   - AUTO
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
+  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -39,5 +62,7 @@ proxy-groups:
   proxies:
   - 🇷🇺 俄罗斯 (Russia) 01 - xiaobo
   - 🇷🇺 俄罗斯 (Russia) 02 - xiaobo
+  - 🇷🇺 俄罗斯 (Russia) 03 - xiaobo
+  - 🇷🇺 俄罗斯 (Russia) 04 - xiaobo
 rules:
 - MATCH,PROXIES
