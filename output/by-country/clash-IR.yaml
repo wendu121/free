@@ -4,31 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 BR 01 - xiaobo
+- name: 🇮🇷 IR 01 - xiaobo
   type: vless
-  server: 43.174.195.1
+  server: 87.248.149.50
   port: 443
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
+  uuid: 667016ca-f02e-4b5f-bfc3-3d8ed81e9bec
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: kv.074167.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kv.074167.xyz
+  servername: base.hosamobenl.co.uk
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 BR 01 - xiaobo
+  - 🇮🇷 IR 01 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 BR 01 - xiaobo
+  - 🇮🇷 IR 01 - xiaobo
 rules:
 - MATCH,PROXIES
