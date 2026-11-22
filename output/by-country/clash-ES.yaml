@@ -26,6 +26,13 @@ proxies:
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
 - name: 🇪🇸 西班牙 (Spain) 04 - xiaobo
+  type: ss
+  server: 62.93.179.97
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 05 - xiaobo
   type: vless
   server: 194.76.168.133
   port: 443
@@ -48,6 +55,7 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - xiaobo
   - 🇪🇸 西班牙 (Spain) 03 - xiaobo
   - 🇪🇸 西班牙 (Spain) 04 - xiaobo
+  - 🇪🇸 西班牙 (Spain) 05 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -57,5 +65,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 02 - xiaobo
   - 🇪🇸 西班牙 (Spain) 03 - xiaobo
   - 🇪🇸 西班牙 (Spain) 04 - xiaobo
+  - 🇪🇸 西班牙 (Spain) 05 - xiaobo
 rules:
 - MATCH,PROXIES
