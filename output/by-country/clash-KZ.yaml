@@ -19,6 +19,21 @@ proxies:
     headers:
       Host: 38.107.234.57
 - name: 🇰🇿 KZ 02 - xiaobo
+  type: vmess
+  server: 38.107.234.57
+  port: 80
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 38.107.234.57
+- name: 🇰🇿 KZ 03 - xiaobo
   type: vless
   server: 38.107.234.57
   port: 8443
@@ -32,6 +47,21 @@ proxies:
     path: /vless/
     headers:
       Host: 38.107.234.57
+- name: 🇰🇿 KZ 04 - xiaobo
+  type: vmess
+  server: 38.107.234.57
+  port: 80
+  uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess/
+    headers:
+      Host: 3h-kazakhstan1.09vpn.com
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +69,8 @@ proxy-groups:
   - AUTO
   - 🇰🇿 KZ 01 - xiaobo
   - 🇰🇿 KZ 02 - xiaobo
+  - 🇰🇿 KZ 03 - xiaobo
+  - 🇰🇿 KZ 04 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +78,7 @@ proxy-groups:
   proxies:
   - 🇰🇿 KZ 01 - xiaobo
   - 🇰🇿 KZ 02 - xiaobo
+  - 🇰🇿 KZ 03 - xiaobo
+  - 🇰🇿 KZ 04 - xiaobo
 rules:
 - MATCH,PROXIES
