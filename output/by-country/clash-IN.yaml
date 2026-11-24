@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇮🇳 印度 (India) 01 - xiaobo
   type: vless
-  server: 178.212.35.198
+  server: in.smrtai.top
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -15,60 +15,8 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
 - name: 🇮🇳 印度 (India) 02 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 03 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 04 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 05 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 06 - xiaobo
   type: vless
   server: in.smrtai.top
   port: 443
@@ -80,9 +28,9 @@ proxies:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇮🇳 印度 (India) 07 - xiaobo
+- name: 🇮🇳 印度 (India) 03 - xiaobo
   type: vless
-  server: in.smrtai.top
+  server: 178.212.35.198
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -91,33 +39,7 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: random
-- name: 🇮🇳 印度 (India) 08 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
-- name: 🇮🇳 印度 (India) 09 - xiaobo
-  type: vless
-  server: 13.140.56.100
-  port: 14430
-  uuid: 68512eac-cd53-4de3-8d1e-08f6e04af1a9
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vless
-    headers:
-      Host: 13.140.56.100
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -126,12 +48,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - xiaobo
   - 🇮🇳 印度 (India) 02 - xiaobo
   - 🇮🇳 印度 (India) 03 - xiaobo
-  - 🇮🇳 印度 (India) 04 - xiaobo
-  - 🇮🇳 印度 (India) 05 - xiaobo
-  - 🇮🇳 印度 (India) 06 - xiaobo
-  - 🇮🇳 印度 (India) 07 - xiaobo
-  - 🇮🇳 印度 (India) 08 - xiaobo
-  - 🇮🇳 印度 (India) 09 - xiaobo
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -140,11 +56,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 01 - xiaobo
   - 🇮🇳 印度 (India) 02 - xiaobo
   - 🇮🇳 印度 (India) 03 - xiaobo
-  - 🇮🇳 印度 (India) 04 - xiaobo
-  - 🇮🇳 印度 (India) 05 - xiaobo
-  - 🇮🇳 印度 (India) 06 - xiaobo
-  - 🇮🇳 印度 (India) 07 - xiaobo
-  - 🇮🇳 印度 (India) 08 - xiaobo
-  - 🇮🇳 印度 (India) 09 - xiaobo
 rules:
 - MATCH,PROXIES
