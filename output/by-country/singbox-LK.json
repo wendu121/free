@@ -6,18 +6,22 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaobo",
-        "🇳🇱 荷兰 (Netherlands) 02 (家宽) - xiaobo",
-        "🇩🇪 德国 (Germany) 03 (家宽) - xiaobo"
+        "🇱🇰 LK 01 - xiaobo",
+        "🇱🇰 LK 02 - xiaobo",
+        "🇱🇰 LK 03 - xiaobo",
+        "🇱🇰 LK 04 - xiaobo",
+        "🇱🇰 LK 05 - xiaobo"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - xiaobo",
-        "🇳🇱 荷兰 (Netherlands) 02 (家宽) - xiaobo",
-        "🇩🇪 德国 (Germany) 03 (家宽) - xiaobo"
+        "🇱🇰 LK 01 - xiaobo",
+        "🇱🇰 LK 02 - xiaobo",
+        "🇱🇰 LK 03 - xiaobo",
+        "🇱🇰 LK 04 - xiaobo",
+        "🇱🇰 LK 05 - xiaobo"
       ],
       "url": "https://www.google.com/generate_204"
     },
